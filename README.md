@@ -1,38 +1,34 @@
-<img align="right" src="https://count.getloli.com/get/@:Minori-ty?theme=rule34">
-
-## 前端工程师—天平
-
-热爱前端、热爱技术。工作经验2年。喜欢参与一些开源项目的讨论。
-
-### **社交主页：**
-
- <img align="right" alt="GIF" src="./images/code.gif" width="430" height="100%" />
+## 像风一样🍃
 
 
--   <a href="https://juejin.cn/user/1214304985296439/posts"><code><img height="20" width="50" src="./images/juejin.png"></code></a>：掘金优秀作者，发表了 30 篇技术文章，15万阅读。
 
-### **技术栈:**
+### 🛠️师傅你是做什么工作的？
 
-<a href="https://v3.cn.vuejs.org"><code><img height="20" src="./images/vue.png"></code></a>
-<a href="https://reactjs.org/"><code><img height="20" src="./images/react.svg"></code></a>
-<a href="https://nextjs.org/"><code><img height="20" src="./images/next.png"></code></a>
-<a href="https://www.tslang.cn/index.html"><code><img height="20" src="./images/typescript.png"></code></a>
-<a href="https://webpack.js.org/"><code><img height="20" src="./images/webpack.svg"></code></a>
-<a href="https://cn.vitejs.dev"><code><img height="20" src="./images/vite.png"></code></a>
-<a href="https://sass-lang.com"><code><img height="20" src="./images/sass2.png"></code></a>
-<a href="https://tailwindcss.com"><code><img height="20" src="./images/tailwindcss.png"></code></a>
-<a href="https://go.dev/"><code><img height="20" src="./images/golang.png"></code></a>
-<a href="https://www.docker.com"><code><img height="20" src="./images/docker.png"></code></a>
+Java后端开发；人机交互与虚拟现实（Unity3D开发）；
 
-### 开源项目
 
-[![](https://github-readme-stats.vercel.app/api/pin/?username=curforever&repo=mp4To4K-rust)](https://github.com/Minori-ty/mp4To4K-rust)
-<br><br><br>
 
-### Github 活跃度
+### 💻师傅你都会什么（技术栈）？
 
-[![](https://activity-graph.herokuapp.com/graph?username=curforever&theme=dracula)](https://github.com/ashutosh00710/github-readme-activity-graph)
-![Minori-ty's github stats](https://github-readme-stats.vercel.app/api?username=curforever&show_icons=true&theme=vue)
+- 英语CET-4、CET-6均600+分通过，能够阅读英文技术资料及文献。
+- 了解Java基础、Java并发，具有较好的编程能力和代码风格。
+- 了解常用的数据结构，熟悉排序、贪心、动态规划等算法。
+- 了解MySQL，Redis，多线程，Spring相关知识。
+- 熟悉TCP/IP网络模型，熟悉TCP三次握手、四次挥手，以及流量控制、拥塞控制等手段。
+- 了解进程的状态转换和控制结构，进程与线程的区别，了解进程调度算法。
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=curforever&langs_count=6)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=curforever&layout=compact&langs_count=6)
+
+
+### ✏️师傅你都写了什么有趣的 or 有用的博客？
+
+1. 👍[CSDN链表逆置详细讲解博客 300+赞 700+收藏](https://blog.csdn.net/qq_51366188/article/details/114111668?fromshare=blogdetail&sharetype=blogdetail&sharerId=114111668&sharerefer=PC&sharesource=qq_51366188&sharefrom=from_link)
+
+
+
+### 👨‍💻师傅你都有哪些作品？
+
+1. 🧳肘就肘旅游网
+2. 🍔吃否外卖平台
+
+
+
