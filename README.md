@@ -8,13 +8,16 @@
 
 ### 教育经历
 
-2023.09 - 2026.06	东南大学     软件学院    成绩：84.81	排名：3 / 130
+- 2023.09 - 2026.06	东南大学     软件学院    成绩：84.81	排名：3 / 130
+-- 硕士阶段科研方向：虚拟现实与人机交互
+- 2019.09 - 2023.06	合肥工业大学	计算机学院  绩点：3.77	排名：17 / 255
 
-2019.09 - 2023.06	合肥工业大学	计算机学院  绩点：3.77	排名：17 / 255
-
-硕士阶段科研方向：虚拟现实与人机交互	
-
-2025.02以第一作者身份发表CCF-C类会议一篇
+### 论文信息
+- 论文名称：Bilateral Virtual Companions The Impact of Virtual Humans' Movement and Voice Realism on User Perception and Experience in Multi-user VR Cinemas
+- 作者排序：第一作者
+- 发表会议：International Conference on Computer Supported Cooperative Work in Design (CSCWD, CCF-C类会议)
+- 主办单位：University of Technology of Compiègne CSCWD International Working Group University of Technology of Troyes
+- 发表时间：2025年2月
 
 ### 项目经历
 #### 12306铁路购票系统
