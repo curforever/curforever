@@ -13,7 +13,7 @@ I enjoy breaking complex problems into things I can verify, and turning repeated
   <img src="assets/badges/learning-en.svg" alt="Input: source code and books" />
 </p>
 
-[🏆 Selected work](#work) · [🧰 Toolkit](#stack) · [📦 Repositories](#projects) · [📚 Beyond code](#beyond) · [💬 Say hello](https://github.com/curforever/curforever/issues)
+[🏆 Selected work](#user-content-work) · [🧰 Toolkit](#user-content-stack) · [📦 Repositories](#user-content-projects) · [📚 Beyond code](#user-content-beyond) · [💬 Say hello](https://github.com/curforever/curforever/issues)
 
 <a name="work"></a>
 ## 🏆 Selected projects & practice

@@ -13,7 +13,7 @@
   <img src="assets/badges/learning.svg" alt="习惯：读源码，也读书" />
 </p>
 
-[🏆 核心实践](#work) · [🧰 技术栈](#stack) · [📦 项目索引](#projects) · [📚 技术之外](#beyond) · [💬 交流](https://github.com/curforever/curforever/issues)
+[🏆 核心实践](#user-content-work) · [🧰 技术栈](#user-content-stack) · [📦 项目索引](#user-content-projects) · [📚 技术之外](#user-content-beyond) · [💬 交流](https://github.com/curforever/curforever/issues)
 
 <a name="work"></a>
 ## 🏆 核心项目与实践
