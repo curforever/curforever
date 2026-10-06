@@ -15,7 +15,7 @@ I enjoy breaking complex problems into things I can verify, and turning repeated
 
 [🏆 Selected work](#user-content-work) · [🧰 Toolkit](#user-content-stack) · [📦 Repositories](#user-content-projects) · [📚 Beyond code](#user-content-beyond) · [💬 Say hello](https://github.com/curforever/curforever/issues)
 
-<a name="work"></a>
+<a id="work"></a>
 ## 🏆 Selected projects & practice
 
 <table>
@@ -53,7 +53,7 @@ Studied how virtual characters' movement and voice realism influence user percep
 
 This experience keeps me interested in HCI: after implementing a system, I also want to understand how people perceive and use it.
 
-<a name="stack"></a>
+<a id="stack"></a>
 ## 🧰 Toolkit · Organized by purpose
 
 | Area | Tools & technologies | What I explore |
@@ -64,7 +64,7 @@ This experience keeps me interested in HCI: after implementing a system, I also 
 | **System fundamentals** | ![Networking](https://img.shields.io/badge/Network-0369A1?style=flat-square) ![OS](https://img.shields.io/badge/OS-475569?style=flat-square) | TCP / HTTP, processes and threads, I/O multiplexing |
 | **Tools & interaction** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Agent Skills](https://img.shields.io/badge/Agent_Skills-7C3AED?style=flat-square) ![VR HCI](https://img.shields.io/badge/VR_%2F_HCI-0D9488?style=flat-square) | Reusable workflows, documentation and knowledge, user perception |
 
-<a name="projects"></a>
+<a id="projects"></a>
 ## 📦 Repository index · One clear purpose each
 
 | Project | Stars | Forks | Purpose & scope |
@@ -76,7 +76,7 @@ This experience keeps me interested in HCI: after implementing a system, I also 
 
 <sub>![Metrics updated](assets/metrics/updated-en.svg) · GitHub API data, refreshed weekly.</sub>
 
-<a name="beyond"></a>
+<a id="beyond"></a>
 ## 📚 Beyond code · Curiosity needs input
 
 | Category | What I do | A concrete example |

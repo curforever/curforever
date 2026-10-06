@@ -15,7 +15,7 @@
 
 [🏆 核心实践](#user-content-work) · [🧰 技术栈](#user-content-stack) · [📦 项目索引](#user-content-projects) · [📚 技术之外](#user-content-beyond) · [💬 交流](https://github.com/curforever/curforever/issues)
 
-<a name="work"></a>
+<a id="work"></a>
 ## 🏆 核心项目与实践
 
 <table>
@@ -53,7 +53,7 @@
 
 这段经历让我持续关注人机交互：系统实现之后，还要思考用户怎样感知、理解和使用它。
 
-<a name="stack"></a>
+<a id="stack"></a>
 ## 🧰 技术栈 · 工具箱按用途收纳
 
 | 方向 | 工具与技术 | 我关注的问题 |
@@ -64,7 +64,7 @@
 | **系统基础** | ![Networking](https://img.shields.io/badge/Network-0369A1?style=flat-square) ![OS](https://img.shields.io/badge/OS-475569?style=flat-square) | TCP / HTTP、进程与线程、I/O 多路复用 |
 | **工具与交互探索** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Agent Skills](https://img.shields.io/badge/Agent_Skills-7C3AED?style=flat-square) ![VR HCI](https://img.shields.io/badge/VR_%2F_HCI-0D9488?style=flat-square) | 可复用工作流、文档与知识整理、用户感知与体验 |
 
-<a name="projects"></a>
+<a id="projects"></a>
 ## 📦 项目索引 · 每个仓库，一句话说明白
 
 | 项目 | Stars | Forks | 用途与边界 |
@@ -76,7 +76,7 @@
 
 <sub>![指标更新时间](assets/metrics/updated.svg) · 数据来自 GitHub API，每周刷新。</sub>
 
-<a name="beyond"></a>
+<a id="beyond"></a>
 ## 📚 技术之外 · 好奇心也需要输入
 
 | 分类 | 我在做什么 | 一个具体入口或例子 |
