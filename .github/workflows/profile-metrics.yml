@@ -1,0 +1,41 @@
+name: Refresh profile metrics
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 0 * * 1'
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_metrics.py
+      - .github/workflows/profile-metrics.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-metrics
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate public repository counters
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/update_metrics.py
+      - name: Commit changed counters
+        run: |
+          git add assets/metrics
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: refresh public profile metrics'
+          git push
