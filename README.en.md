@@ -56,10 +56,12 @@ Harmony state consistency, Java latency investigation and VR quality/cache trade
 <tr>
 <td width="50%" valign="top">
 <img src="assets/contribution-card.svg" width="100%" alt="Open source · Beyond the Fork button" />
-<b>Open source · Beyond the Fork button</b><br />
-Four merged PRs to leetcode-master: Java implementations, complexity corrections, comments and documentation. Contributions to future projects will join this collection.<br /><br />
-<code>Java</code> <code>Documentation</code> <code>4 PRs merged</code><br /><br />
-<a href="https://github.com/youngyangyang04/leetcode-master/pull/2915">A* in Java →</a> · <a href="https://github.com/search?q=is%3Apr+author%3Acurforever+-user%3Acurforever&amp;type=pullrequests">External PRs →</a>
+<!-- PUBLIC_CONTRIBUTIONS_START -->
+<b>Contributions · Send patches upstream</b><br />
+4 verified merged PRs across 1 public projects. Changes and merge dates are recorded with direct links.<br /><br />
+<code>Public PRs</code> <code>Merge evidence</code> <code>4 PRs merged</code><br /><br />
+<a href="https://github.com/youngyangyang04/leetcode-master/pull/2915">Latest merged PR →</a> · <a href="contributions/README.en.md">Contribution record →</a>
+<!-- PUBLIC_CONTRIBUTIONS_END -->
 </td>
 <td width="50%" valign="top">
 <img src="assets/hobbies-card.svg" width="100%" alt="Curiosity lab · Hardware feel to UI details" />
@@ -89,14 +91,14 @@ Custom mechanical keyboards for feel and selection; CSS experiments for visual e
 <!-- PUBLIC_PROJECTS_START -->
 | Project | Stars | Forks | Purpose & context |
 | :--- | :---: | :---: | :--- |
-| [curforever-skills](https://github.com/curforever/curforever-skills) | ![Stars](assets/metrics/curforever-skills-stars.svg) | ![Forks](assets/metrics/curforever-skills-forks.svg) | Development, learning & project skills |
-| [curforever.github.io](https://github.com/curforever/curforever.github.io) | ![Stars](assets/metrics/curforever.github.io-stars.svg) | ![Forks](assets/metrics/curforever.github.io-forks.svg) | Engineering, research & reading notes |
-| [Keyboard](https://github.com/curforever/Keyboard) | ![Stars](assets/metrics/Keyboard-stars.svg) | ![Forks](assets/metrics/Keyboard-forks.svg) | Switch photos, feel & selection notes |
-| [CSSLearning](https://github.com/curforever/CSSLearning) | ![Stars](assets/metrics/CSSLearning-stars.svg) | ![Forks](assets/metrics/CSSLearning-forks.svg) | CSS learning & interface experiments |
-| [leetcode-master](https://github.com/curforever/leetcode-master) | ![Stars](assets/metrics/leetcode-master-stars.svg) | ![Forks](assets/metrics/leetcode-master-forks.svg) | Fork: Java & documentation; 4 merged PRs |
-| [CangQiongWaiMai-Java](https://github.com/curforever/CangQiongWaiMai-Java) | ![Stars](assets/metrics/CangQiongWaiMai-Java-stars.svg) | ![Forks](assets/metrics/CangQiongWaiMai-Java-forks.svg) | Course practice: business, cache & Spring |
-| [HexoBlogBackup](https://github.com/curforever/HexoBlogBackup) | ![Stars](assets/metrics/HexoBlogBackup-stars.svg) | ![Forks](assets/metrics/HexoBlogBackup-forks.svg) | Hexo content, theme & configuration |
-| [curforever](https://github.com/curforever/curforever) | ![Stars](assets/metrics/curforever-stars.svg) | ![Forks](assets/metrics/curforever-forks.svg) | Bilingual profile, assets & metric refresh |
+| [curforever-skills](https://github.com/curforever/curforever-skills) | ![Stars](assets/metrics/curforever-skills-stars.svg) | ![Forks](assets/metrics/curforever-skills-forks.svg) | Development, learning &amp; project skills |
+| [curforever.github.io](https://github.com/curforever/curforever.github.io) | ![Stars](assets/metrics/curforever.github.io-stars.svg) | ![Forks](assets/metrics/curforever.github.io-forks.svg) | Engineering, research &amp; reading notes |
+| [Keyboard](https://github.com/curforever/Keyboard) | ![Stars](assets/metrics/Keyboard-stars.svg) | ![Forks](assets/metrics/Keyboard-forks.svg) | Switch photos, feel &amp; selection notes |
+| [CSSLearning](https://github.com/curforever/CSSLearning) | ![Stars](assets/metrics/CSSLearning-stars.svg) | ![Forks](assets/metrics/CSSLearning-forks.svg) | CSS learning &amp; interface experiments |
+| [leetcode-master](https://github.com/curforever/leetcode-master) | ![Stars](assets/metrics/leetcode-master-stars.svg) | ![Forks](assets/metrics/leetcode-master-forks.svg) | Fork: Java implementations and documentation fixes |
+| [CangQiongWaiMai-Java](https://github.com/curforever/CangQiongWaiMai-Java) | ![Stars](assets/metrics/CangQiongWaiMai-Java-stars.svg) | ![Forks](assets/metrics/CangQiongWaiMai-Java-forks.svg) | Course practice: business, cache &amp; Spring |
+| [HexoBlogBackup](https://github.com/curforever/HexoBlogBackup) | ![Stars](assets/metrics/HexoBlogBackup-stars.svg) | ![Forks](assets/metrics/HexoBlogBackup-forks.svg) | Hexo content, theme &amp; configuration |
+| [curforever](https://github.com/curforever/curforever) | ![Stars](assets/metrics/curforever-stars.svg) | ![Forks](assets/metrics/curforever-forks.svg) | Bilingual profile, assets &amp; metric refresh |
 <!-- PUBLIC_PROJECTS_END -->
 
 <sub>![Updated](assets/metrics/updated-en.svg) · Public repositories only; refreshed weekly. Forks and course projects are labeled.</sub>

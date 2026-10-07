@@ -6,6 +6,7 @@ from datetime import datetime, timedelta, timezone
 from html import escape
 from pathlib import Path
 from urllib.request import Request, urlopen
+from urllib.parse import quote, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = {
@@ -13,24 +14,27 @@ CATALOG = {
     'curforever.github.io': ('博客站点', '工程复盘、研究图解与阅读笔记', 'Engineering, research & reading notes'),
     'Keyboard': ('键盘记录', '试轴照片、手感体验与选型清单', 'Switch photos, feel & selection notes'),
     'CSSLearning': ('CSS 实验', 'CSS 学习案例与界面探索', 'CSS learning & interface experiments'),
-    'leetcode-master': ('开源贡献', 'Fork：补充 Java、修正文档；4 个 PR 已合并', 'Fork: Java & documentation; 4 merged PRs'),
+    'leetcode-master': ('开源贡献', 'Fork：补充 Java 实现与文档修正', 'Fork: Java implementations and documentation fixes'),
     'CangQiongWaiMai-Java': ('外卖平台', '课程练习：业务、缓存与 Spring', 'Course practice: business, cache & Spring'),
     'HexoBlogBackup': ('博客源码', 'Hexo 内容、主题与站点配置', 'Hexo content, theme & configuration'),
     'curforever': ('主页工程', '中英文主页、展示素材与指标刷新', 'Bilingual profile, assets & metric refresh'),
 }
 
 
-def github_public_repos():
+def github_json(path):
     headers = {"Accept": "application/vnd.github+json", "User-Agent": "curforever-profile"}
     token = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
     if token:
         headers["Authorization"] = f"Bearer {token}"
+    with urlopen(Request('https://api.github.com/' + path, headers=headers), timeout=30) as response:
+        return json.load(response)
+
+
+def github_public_repos():
     repositories = []
     page = 1
     while True:
-        request = Request(f'https://api.github.com/users/curforever/repos?type=owner&per_page=100&page={page}', headers=headers)
-        with urlopen(request, timeout=30) as response:
-            data = json.load(response)
+        data = github_json(f'users/curforever/repos?type=owner&per_page=100&page={page}')
         for repo in data:
             if repo['private'] or repo['owner']['login'].lower() != 'curforever':
                 continue
@@ -40,6 +44,92 @@ def github_public_repos():
         page += 1
     order = list(CATALOG)
     return sorted(repositories, key=lambda r: (order.index(r['name']) if r['name'] in order else 4, r['name'].lower()))
+
+
+def github_public_contributions():
+    query = quote('is:pr author:curforever -user:curforever is:merged')
+    items = []
+    for page in range(1, 11):
+        data = github_json(f'search/issues?q={query}&per_page=100&page={page}')
+        if data.get('incomplete_results') or data['total_count'] > 1000:
+            raise RuntimeError('Contribution search incomplete; preserving existing files')
+        items.extend(data['items'])
+        if len(items) >= data['total_count']:
+            break
+    visibility = {}
+    verified = {}
+    for item in items:
+        url = urlsplit(item['repository_url'])
+        if url.netloc != 'api.github.com' or not url.path.startswith('/repos/'):
+            raise ValueError('Unexpected repository URL')
+        repository = url.path.removeprefix('/repos/')
+        if repository not in visibility:
+            repo = github_json('repos/' + repository)
+            visibility[repository] = not repo['private'] and repo['owner']['login'].lower() != 'curforever'
+        if not visibility[repository] or 'pull_request' not in item:
+            continue
+        pr = github_json(f'repos/{repository}/pulls/{item["number"]}')
+        if not pr.get('merged_at') or not pr.get('merged') or pr['user']['login'].lower() != 'curforever':
+            continue
+        verified[(repository, pr['number'])] = {
+            'repository': repository, 'number': pr['number'], 'title': pr['title'],
+            'url': pr['html_url'], 'merged_at': pr['merged_at'],
+        }
+    return sorted(verified.values(), key=lambda p: (p['merged_at'], p['repository'], p['number']), reverse=True)
+
+
+def markdown_text(value):
+    text = escape(str(value).replace('\n', ' ').replace('\r', ' '))
+    for char in ('\\', '|', '[', ']', '*', '_', '`'):
+        text = text.replace(char, '\\' + char)
+    return text
+
+
+def contribution_card(prs, english=False):
+    count = len(prs)
+    projects = len({p['repository'] for p in prs})
+    if english:
+        title = 'Contributions · Send patches upstream'
+        text = f'{count} verified merged PRs across {projects} public projects. Changes and merge dates are recorded with direct links.'
+        labels = 'Public PRs', 'Merge evidence'
+        first, second = 'Latest merged PR →', 'Contribution record →'
+        record = 'contributions/README.en.md'
+    else:
+        title = '开源贡献 · 不只 Fork，也递交补丁'
+        text = f'{count} 个公开对外 PR 已合并，来自 {projects} 个项目。具体改动、链接与合并时间保存在贡献记录中。'
+        if count and {p['repository'] for p in prs} == {'youngyangyang04/leetcode-master'}:
+            text = f'已向《代码随想录》提交并合并 {count} 个 PR，补充 Java 实现并修正复杂度、注释与文档。合并记录可直接核验。'
+        labels = '公开 PR', '合并记录'
+        first, second = '最近合并的 PR →', '完整贡献记录 →'
+        record = 'contributions/README.md'
+    latest = (f'<a href="{escape(prs[0]["url"])}">{first}</a> · ' if prs else '')
+    return (f'<b>{title}</b><br />\n{text}<br /><br />\n'
+            f'<code>{labels[0]}</code> <code>{labels[1]}</code> <code>{count} PRs merged</code><br /><br />\n'
+            f'{latest}<a href="{record}">{second}</a>')
+
+
+def contribution_record(prs, english=False):
+    known = {
+        2915: ('补充 A* 搜索的 Java 实现', 'Add an A* search implementation in Java'),
+        2874: ('修正 Java 命名、统一迭代注释与文档格式', 'Fix Java naming, iteration comments and document formatting'),
+        2871: ('修正复杂度分析，补充 KMP 实现与注释', 'Correct complexity analysis; add KMP implementation and comments'),
+        2870: ('修正 Java 实现与集合处理', 'Fix Java implementations and collection handling'),
+    }
+    text = ('<p align="right"><a href="README.md">简体中文</a> · <b>English</b></p>\n\n# Open-source contributions\n\n'
+            'Public external PRs verified against repository visibility and merge state. Updated with the profile metrics.\n\n'
+            '| Project | Change | PR | Merged (UTC) |\n| :--- | :--- | :---: | :--- |\n') if english else (
+            '<p align="right"><b>简体中文</b> · <a href="README.en.md">English</a></p>\n\n# 开源贡献 · 把小修正送回上游\n\n'
+            '只记录已核验合并的公开对外 PR。仓库可见性、作者与合并状态通过 GitHub API 核对，随主页指标更新。\n\n'
+            '| 项目 | 改动 | PR | 合并日期（UTC） |\n| :--- | :--- | :---: | :--- |\n')
+    for pr in prs:
+        repo, number = pr['repository'], pr['number']
+        title = known[number][int(english)] if repo == 'youngyangyang04/leetcode-master' and number in known else pr['title']
+        text += f'| [{markdown_text(repo)}](https://github.com/{repo}) | {markdown_text(title)} | [#{number}]({pr["url"]}) | {pr["merged_at"][:10]} |\n'
+    if not prs:
+        text += '| — | — | — | — |\n'
+    text += ('\n[Back to profile](../README.en.md) · ' if english else '\n[返回主页](../README.md) · ')
+    text += '[All external PRs](https://github.com/search?q=is%3Apr+author%3Acurforever+-user%3Acurforever&type=pullrequests)\n'
+    return text
 
 
 def badge(label, value, color):
@@ -81,10 +171,10 @@ def project_index(repos, english=False):
     rows = ['| Project | Stars | Forks | Purpose & context |' if english else '| 项目 | Stars | Forks | 用途与边界 |', '| :--- | :---: | :---: | :--- |']
     for repo in repos:
         name = repo['name']
-        label, cn, en = CATALOG.get(name, (name, '公开仓库 · 说明待补充', 'Public repository · description to follow'))
-        # Never inject arbitrary API descriptions into Markdown or expose private repositories.
+        label, cn, en = CATALOG.get(name, (name, repo.get('description') or '公开仓库', repo.get('description') or 'Public repository'))
+        # API descriptions are plain text; escape Markdown and HTML before displaying them.
         label = name if english else label
-        description = en if english else cn
+        description = markdown_text(en if english else cn)
         if repo['fork'] and name not in CATALOG:
             description = ('Fork · ' if english else 'Fork · ') + description
         safe_label = label.replace('|', '\\|').replace('[', '\\[').replace(']', '\\]')
@@ -115,6 +205,7 @@ def trend_svg(history):
 def main():
     # Fetch all counters before writing; preserve the snapshot if a request fails.
     repos = github_public_repos()
+    contributions = github_public_contributions()
     counters = {r['name']: {'stars': r['stargazers_count'], 'forks': r['forks_count']} for r in repos}
     today = datetime.now(timezone(timedelta(hours=8))).date().isoformat()
     output = ROOT / "assets" / "metrics"
@@ -133,7 +224,13 @@ def main():
             raise ValueError(f'Missing/duplicate project markers in {filename}')
         before, middle = text.split(start)
         _, after = middle.split(end)
-        readmes[filename] = before + start + '\n' + project_index(repos, filename.endswith('.en.md')) + '\n' + end + after
+        updated = before + start + '\n' + project_index(repos, filename.endswith('.en.md')) + '\n' + end + after
+        start, end = '<!-- PUBLIC_CONTRIBUTIONS_START -->', '<!-- PUBLIC_CONTRIBUTIONS_END -->'
+        if updated.count(start) != 1 or updated.count(end) != 1:
+            raise ValueError(f'Missing/duplicate contribution markers in {filename}')
+        before, middle = updated.split(start)
+        _, after = middle.split(end)
+        readmes[filename] = before + start + '\n' + contribution_card(contributions, filename.endswith('.en.md')) + '\n' + end + after
     for name, values in counters.items():
         for key, color in (("stars", "#7c3aed"), ("forks", "#0d9488")):
             (output / f"{name}-{key}.svg").write_text(
@@ -147,6 +244,10 @@ def main():
     )
     history_path.write_text(json.dumps(history, indent=2) + '\n', encoding='utf-8')
     (output / 'stars-trend.svg').write_text(trend_svg(history), encoding='utf-8')
+    (output / 'contributions.json').write_text(json.dumps({'updated_date_cst': today, 'merged_count': len(contributions), 'pull_requests': contributions}, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    (ROOT / 'contributions').mkdir(exist_ok=True)
+    for english in (False, True):
+        (ROOT / 'contributions' / ('README.en.md' if english else 'README.md')).write_text(contribution_record(contributions, english), encoding='utf-8')
     for filename, text in readmes.items():
         (ROOT / filename).write_text(text, encoding='utf-8')
     print(f"Updated metrics for {len(counters)} public repositories ({today}).")

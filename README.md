@@ -56,10 +56,12 @@
 <tr>
 <td width="50%" valign="top">
 <img src="assets/contribution-card.svg" width="100%" alt="开源贡献 · 不只 Fork，也递交补丁" />
+<!-- PUBLIC_CONTRIBUTIONS_START -->
 <b>开源贡献 · 不只 Fork，也递交补丁</b><br />
-已向《代码随想录》提交并合并 4 个 PR：补充 Java 实现、修正复杂度分析、完善注释与文档。后续项目的贡献也会汇集在这里。<br /><br />
-<code>Java 实现</code> <code>文档修正</code> <code>4 PRs merged</code><br /><br />
-<a href="https://github.com/youngyangyang04/leetcode-master/pull/2915">A* Java 实现 →</a> · <a href="https://github.com/search?q=is%3Apr+author%3Acurforever+-user%3Acurforever&amp;type=pullrequests">全部对外 PR →</a>
+已向《代码随想录》提交并合并 4 个 PR，补充 Java 实现并修正复杂度、注释与文档。合并记录可直接核验。<br /><br />
+<code>公开 PR</code> <code>合并记录</code> <code>4 PRs merged</code><br /><br />
+<a href="https://github.com/youngyangyang04/leetcode-master/pull/2915">最近合并的 PR →</a> · <a href="contributions/README.md">完整贡献记录 →</a>
+<!-- PUBLIC_CONTRIBUTIONS_END -->
 </td>
 <td width="50%" valign="top">
 <img src="assets/hobbies-card.svg" width="100%" alt="兴趣实验室 · 输入设备到界面体验" />
@@ -93,7 +95,7 @@
 | [博客站点](https://github.com/curforever/curforever.github.io) | ![Stars](assets/metrics/curforever.github.io-stars.svg) | ![Forks](assets/metrics/curforever.github.io-forks.svg) | 工程复盘、研究图解与阅读笔记 |
 | [键盘记录](https://github.com/curforever/Keyboard) | ![Stars](assets/metrics/Keyboard-stars.svg) | ![Forks](assets/metrics/Keyboard-forks.svg) | 试轴照片、手感体验与选型清单 |
 | [CSS 实验](https://github.com/curforever/CSSLearning) | ![Stars](assets/metrics/CSSLearning-stars.svg) | ![Forks](assets/metrics/CSSLearning-forks.svg) | CSS 学习案例与界面探索 |
-| [开源贡献](https://github.com/curforever/leetcode-master) | ![Stars](assets/metrics/leetcode-master-stars.svg) | ![Forks](assets/metrics/leetcode-master-forks.svg) | Fork：补充 Java、修正文档；4 个 PR 已合并 |
+| [开源贡献](https://github.com/curforever/leetcode-master) | ![Stars](assets/metrics/leetcode-master-stars.svg) | ![Forks](assets/metrics/leetcode-master-forks.svg) | Fork：补充 Java 实现与文档修正 |
 | [外卖平台](https://github.com/curforever/CangQiongWaiMai-Java) | ![Stars](assets/metrics/CangQiongWaiMai-Java-stars.svg) | ![Forks](assets/metrics/CangQiongWaiMai-Java-forks.svg) | 课程练习：业务、缓存与 Spring |
 | [博客源码](https://github.com/curforever/HexoBlogBackup) | ![Stars](assets/metrics/HexoBlogBackup-stars.svg) | ![Forks](assets/metrics/HexoBlogBackup-forks.svg) | Hexo 内容、主题与站点配置 |
 | [主页工程](https://github.com/curforever/curforever) | ![Stars](assets/metrics/curforever-stars.svg) | ![Forks](assets/metrics/curforever-forks.svg) | 中英文主页、展示素材与指标刷新 |
