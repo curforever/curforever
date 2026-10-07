@@ -32,25 +32,25 @@
 <td width="50%" valign="top">
 <img src="assets/research-card.svg" width="100%" alt="毕业研究 · 从感知质量到端边协同" />
 <b>毕业研究 · 从感知质量到端边协同</b><br />
-一个完整的 VR / HCI 研究链路：第三章按眼动任务调节中心凹渲染，第四章复用多人共享视场缓存，第五章完成端边协同系统与实验；论文组织与代码共同支撑这一整体。<br /><br />
+从“用户正在看什么”到“多人能共享什么”，把任务感知渲染、共享缓存与端边通信接成系统。原论文图表展示方法、结果与边界。<br /><br />
 <code>任务感知</code> <code>缓存复用</code> <code>系统集成</code><br /><br />
-<a href="#user-content-research">研究脉络 →</a> · 相关源码暂未公开
+<a href="https://curforever.github.io/research/">图解研究 →</a> · <a href="research/README.md">原图与指标 →</a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <img src="assets/client-service-card.svg" width="100%" alt="端与服务 · 两端都做过，继续往深处走" />
 <b>端与服务 · 两端都做过，继续往深处走</b><br />
-华为软件开发实习中参与 Java 服务端需求开发；HarmonyOS 菁英班中开发健康打卡 App，实践声明式 UI、状态管理与交互优化。<br /><br />
+客户端练交互，服务端练业务闭环：从健康打卡 App 的状态一致性，到 Java 业务校验与并发控制，留下问题定位和工程复盘。<br /><br />
 <code>ArkTS / ArkUI</code> <code>Java</code> <code>业务闭环</code><br /><br />
-<a href="#user-content-experience">经历与收获 →</a> · 关注可用性，也关注实现机制
+<a href="https://curforever.github.io/notes/harmony-state-consistency/">状态问题复盘 →</a> · <a href="#user-content-experience">经历与收获 →</a>
 </td>
 <td width="50%" valign="top">
 <img src="assets/blog-card.svg" width="100%" alt="博客 · 把输入整理成下一次的工具" />
 <b>博客 · 把输入整理成下一次的工具</b><br />
-留下技术实践、读书与播客笔记。精选入口先讲重点，旧笔记保留在归档里；正在重新整理，让积累更容易被找到。<br /><br />
+从 Harmony 状态不一致、Java 接口排查，到 VR 画质与缓存取舍。把问题、证据和适用边界写下来，历史阅读笔记继续保留。<br /><br />
 <code>技术记录</code> <code>阅读笔记</code> <code>思考复盘</code><br /><br />
-<a href="https://curforever.github.io/">精选入口 →</a> · <a href="https://curforever.github.io/archives/">历史归档 →</a>
+<a href="https://curforever.github.io/notes/java-latency-investigation/">接口排查 →</a> · <a href="https://curforever.github.io/">博客精选 →</a>
 </td>
 </tr>
 <tr>
@@ -64,8 +64,8 @@
 <td width="50%" valign="top">
 <img src="assets/hobbies-card.svg" width="100%" alt="兴趣实验室 · 输入设备到界面体验" />
 <b>兴趣实验室 · 输入设备到界面体验</b><br />
-客制化机械键盘记录手感与选型，CSS 案例练习界面表达。屏幕之外会跑步、打篮球；偶尔开黑，也喜欢研究团队怎样配合。<br /><br />
-<code>机械键盘</code> <code>CSS</code> <code>运动与协作</code><br /><br />
+客制化机械键盘记录手感与选型，CSS 小实验练习界面表达。从每天接触的工具出发，认真调一调手感与像素。<br /><br />
+<code>机械键盘</code> <code>CSS</code> <code>界面体验</code><br /><br />
 <a href="https://github.com/curforever/Keyboard">键盘记录 →</a> · <a href="https://github.com/curforever/CSSLearning">CSS 小实验 →</a>
 </td>
 </tr>
@@ -90,7 +90,7 @@
 | 项目 | Stars | Forks | 用途与边界 |
 | :--- | :---: | :---: | :--- |
 | [Agent Skills](https://github.com/curforever/curforever-skills) | ![Stars](assets/metrics/curforever-skills-stars.svg) | ![Forks](assets/metrics/curforever-skills-forks.svg) | 开发、学习与项目管理技能集 |
-| [博客站点](https://github.com/curforever/curforever.github.io) | ![Stars](assets/metrics/curforever.github.io-stars.svg) | ![Forks](assets/metrics/curforever.github.io-forks.svg) | 精选技术、阅读与播客笔记 |
+| [博客站点](https://github.com/curforever/curforever.github.io) | ![Stars](assets/metrics/curforever.github.io-stars.svg) | ![Forks](assets/metrics/curforever.github.io-forks.svg) | 工程复盘、研究图解与阅读笔记 |
 | [键盘记录](https://github.com/curforever/Keyboard) | ![Stars](assets/metrics/Keyboard-stars.svg) | ![Forks](assets/metrics/Keyboard-forks.svg) | 试轴照片、手感体验与选型清单 |
 | [CSS 实验](https://github.com/curforever/CSSLearning) | ![Stars](assets/metrics/CSSLearning-stars.svg) | ![Forks](assets/metrics/CSSLearning-forks.svg) | CSS 学习案例与界面探索 |
 | [开源贡献](https://github.com/curforever/leetcode-master) | ![Stars](assets/metrics/leetcode-master-stars.svg) | ![Forks](assets/metrics/leetcode-master-forks.svg) | Fork：补充 Java、修正文档；4 个 PR 已合并 |
@@ -110,30 +110,23 @@
 | :--- | :--- | :--- |
 | **📖 阅读 · 看人，也看组织** | 从人物传记、企业发展到工作方法，留下问题与思考 | [《小米创业思考》笔记](https://curforever.github.io/2025/01/24/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E3%80%8A%E5%B0%8F%E7%B1%B3%E5%88%9B%E4%B8%9A%E6%80%9D%E8%80%83%E3%80%8B/) · 关注专注、取舍和创造价值 |
 | **🎧 播客 · 通勤也有缓存** | 利用碎片时间听思考与生活话题，把值得追问的内容记下来 | [信息筛选笔记](https://curforever.github.io/2025/01/11/%E6%92%AD%E5%AE%A2%E7%AC%94%E8%AE%B0%E3%80%8A%E4%B8%8D%E6%AD%A2%E9%87%91%E9%92%B1_06%20%E4%BF%A1%E6%81%AF%E6%97%B6%E4%BB%A3%E6%B8%85%E9%86%92%E6%B3%95%E5%88%99%20%E8%BF%BD%E6%B1%82%E4%BF%A1%E6%81%AF%20%E4%BD%86%E4%B8%8D%E6%98%AF%E8%B6%8A%E5%A4%9A%E8%B6%8A%E5%A5%BD%E3%80%8B/) · 信息筛选、有效认知、长期主义 |
-| **🌍 英语 · 每天一点点** | 长期单词学习，也把英文资料用于技术阅读 | CET-4 617 / CET-6 614；高中英语教师资格证 |
+| **🌍 英语 · 每天一点点** | 长期单词学习，也把英文资料用于技术阅读 | 从英文文档中找答案，也练习把技术问题清楚地解释给别人 |
 | **✍️ 写作 · 给未来的自己留日志** | 做前理清问题，做中记录证据，做后审核与复盘 | [博客与历史笔记](https://curforever.github.io/) · [代码阅读方法](https://github.com/curforever/curforever-skills/tree/main/skills/development/code-reading-coach) |
 | **🏃 运动 · 给大脑散热** | 跑步调节节奏，篮球练习配合；晴天慢跑，雨天核心训练 | 不追求把每个爱好都变成 KPI，保持精力才能持续投入 |
-| **⌨️ 折腾 · 手感和像素都想调一调** | 从键盘选型到 CSS 小实验，关注日常工具和界面体验 | [键盘记录](https://github.com/curforever/Keyboard) · [CSS 实验](https://github.com/curforever/CSSLearning) |
 
 <a id="experience"></a>
 ## 🎓 经历与成果 · 不只列标签，也留下做过的事
 
 | 阶段 | 经历 | 方向与收获 |
 | :--- | :--- | :--- |
-| **2023–2026** | **东南大学 · 软件学院 · 硕士阶段** | 虚拟现实、人机交互与渲染优化；从方法研究走到系统集成 |
+| **2023–2026** | **东南大学 · 软件学院 · 硕士阶段** | 虚拟现实、人机交互与渲染优化；[完整研究图解](https://curforever.github.io/research/) |
 | **2019–2023** | **合肥工业大学 · 计算机学院 · 本科阶段** | 计算机基础、软件实践与算法竞赛 |
 | **2025.07–09** | **华为 · 软件开发实习（服务端）** | 业务校验、定时重试与并发控制；学习需求对齐、代码评审和交付流程 |
 | **2025.07** | **HarmonyOS 菁英班 · 小组实践** | 健康打卡 App；功能开发、交互优化与真机演示，获组内优秀个人 |
 
-<a id="research"></a>
-### 🥽 研究脉络 · 感知 → 复用 → 协同
-
-**毕业研究是一个整体**：第三章用 Transformer 与感知元学习识别眼动任务、调整中心凹渲染参数；第四章围绕多用户共享视场，以 Double DQN 探索对象块缓存复用；第五章把端侧感知与边侧复用集成到统一系统，并开展实验评估。
-
-**另一项研究成果**：CSCWD 2025 第一作者论文，研究多用户 VR 影院中虚拟角色的动作、声音真实感对用户体验的影响。
-
 | 代表性成果 | 内容 |
 | :--- | :--- |
+| **🥽 研究发表** | CSCWD 2025 第一作者论文：虚拟角色动作、声音真实感与多用户 VR 影院体验 |
 | **🏅 奖学金与荣誉** | 国家级奖学金 · 东南大学三好研究生 · 合肥工业大学优秀毕业生 |
 | **💻 技术竞赛** | 中国软件杯国家三等奖（图书管理系统，小组实践）· 全国大学生数学建模竞赛安徽省二等奖 · 蓝桥杯省二等奖 |
 | **🌍 语言与表达** | 全国大学生英语竞赛 C 类二等奖 · CET-4 617 / CET-6 614 · 高中英语教师资格证 |

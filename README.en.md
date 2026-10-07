@@ -32,25 +32,25 @@ A maintained collection of skills for development, learning, communication and p
 <td width="50%" valign="top">
 <img src="assets/research-card.svg" width="100%" alt="Graduate research · Perception to edge collaboration" />
 <b>Graduate research · Perception to edge collaboration</b><br />
-One connected VR/HCI research effort: task-aware foveated rendering in Chapter 3, shared-view cache reuse in Chapter 4, and an integrated client–edge system with experiments in Chapter 5.<br /><br />
+From current user tasks to shared scene content: connect task-aware rendering, cache reuse and client–edge communication. Original thesis figures explain methods, results and limits.<br /><br />
 <code>Task awareness</code> <code>Cache reuse</code> <code>Integration</code><br /><br />
-<a href="#user-content-research">Research outline →</a> · Source code is currently private
+<a href="https://curforever.github.io/research/">Visual overview →</a> · <a href="research/README.en.md">Figures & results →</a>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 <img src="assets/client-service-card.svg" width="100%" alt="Client & server · Hands-on, still learning" />
 <b>Client & server · Hands-on, still learning</b><br />
-Java server-side development during a Huawei internship, plus a health check-in app in the HarmonyOS training program: declarative UI, state management and interaction improvements.<br /><br />
+Client-side interaction and server-side business flows: health check-in state consistency, Java validation and concurrency control, with lessons from debugging and delivery.<br /><br />
 <code>ArkTS / ArkUI</code> <code>Java</code> <code>Delivery</code><br /><br />
-<a href="#user-content-experience">Experience & lessons →</a> · Usability and implementation both matter
+<a href="https://curforever.github.io/notes/harmony-state-consistency/">State consistency notes →</a> · <a href="#user-content-experience">Experience & lessons →</a>
 </td>
 <td width="50%" valign="top">
 <img src="assets/blog-card.svg" width="100%" alt="Notebook · Turn input into useful output" />
 <b>Notebook · Turn input into useful output</b><br />
-Technical notes, reading reflections and podcast notes. Curated entry points lead to the highlights; older material stays in the archive. Currently reorganizing this collection.<br /><br />
+Harmony state consistency, Java latency investigation and VR quality/cache trade-offs. Capture evidence and boundaries; preserve older reading and podcast notes in the archive.<br /><br />
 <code>Technical notes</code> <code>Reading</code> <code>Reflection</code><br /><br />
-<a href="https://curforever.github.io/">Selected entries →</a> · <a href="https://curforever.github.io/archives/">Archive →</a>
+<a href="https://curforever.github.io/notes/java-latency-investigation/">Latency investigation →</a> · <a href="https://curforever.github.io/">Notebook →</a>
 </td>
 </tr>
 <tr>
@@ -64,8 +64,8 @@ Four merged PRs to leetcode-master: Java implementations, complexity corrections
 <td width="50%" valign="top">
 <img src="assets/hobbies-card.svg" width="100%" alt="Curiosity lab · Hardware feel to UI details" />
 <b>Curiosity lab · Hardware feel to UI details</b><br />
-Custom mechanical keyboards for feel and selection; CSS experiments for visual expression. Away from the screen: running, basketball and the occasional team game.<br /><br />
-<code>Keyboards</code> <code>CSS</code> <code>Sport</code><br /><br />
+Custom mechanical keyboards for feel and selection; CSS experiments for visual expression. Explore the everyday details of tools and interfaces.<br /><br />
+<code>Keyboards</code> <code>CSS</code> <code>Interfaces</code><br /><br />
 <a href="https://github.com/curforever/Keyboard">Keyboard notes →</a> · <a href="https://github.com/curforever/CSSLearning">CSS experiments →</a>
 </td>
 </tr>
@@ -90,7 +90,7 @@ Custom mechanical keyboards for feel and selection; CSS experiments for visual e
 | Project | Stars | Forks | Purpose & context |
 | :--- | :---: | :---: | :--- |
 | [curforever-skills](https://github.com/curforever/curforever-skills) | ![Stars](assets/metrics/curforever-skills-stars.svg) | ![Forks](assets/metrics/curforever-skills-forks.svg) | Development, learning & project skills |
-| [curforever.github.io](https://github.com/curforever/curforever.github.io) | ![Stars](assets/metrics/curforever.github.io-stars.svg) | ![Forks](assets/metrics/curforever.github.io-forks.svg) | Technical, reading & podcast notebook |
+| [curforever.github.io](https://github.com/curforever/curforever.github.io) | ![Stars](assets/metrics/curforever.github.io-stars.svg) | ![Forks](assets/metrics/curforever.github.io-forks.svg) | Engineering, research & reading notes |
 | [Keyboard](https://github.com/curforever/Keyboard) | ![Stars](assets/metrics/Keyboard-stars.svg) | ![Forks](assets/metrics/Keyboard-forks.svg) | Switch photos, feel & selection notes |
 | [CSSLearning](https://github.com/curforever/CSSLearning) | ![Stars](assets/metrics/CSSLearning-stars.svg) | ![Forks](assets/metrics/CSSLearning-forks.svg) | CSS learning & interface experiments |
 | [leetcode-master](https://github.com/curforever/leetcode-master) | ![Stars](assets/metrics/leetcode-master-stars.svg) | ![Forks](assets/metrics/leetcode-master-forks.svg) | Fork: Java & documentation; 4 merged PRs |
@@ -110,10 +110,9 @@ Custom mechanical keyboards for feel and selection; CSS experiments for visual e
 | :--- | :--- | :--- |
 | **📖 Reading** | Biographies, organizations and work methods; keep questions and reflections | [The Pragmatic Thinking notebook](https://curforever.github.io/2025/02/09/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%E3%80%8A%E7%A8%8B%E5%BA%8F%E5%91%98%E7%9A%84%E6%80%9D%E7%BB%B4%E4%BF%AE%E7%82%BC%20%E5%BC%80%E5%8F%91%E8%AE%A4%E7%9F%A5%E6%BD%9C%E8%83%BD%E7%9A%84%E4%B9%9D%E5%A0%82%E8%AF%BE%E3%80%8B/) · Focus, trade-offs and creating value |
 | **🎧 Podcasts** | Capture ideas during commutes and revisit useful questions | [Categories](https://curforever.github.io/categories/) · Information quality, cognition and long-term thinking |
-| **🌍 English** | Regular vocabulary practice and technical reading | CET-4: 617 / CET-6: 614; high-school English teaching qualification |
+| **🌍 English** | Regular vocabulary practice and technical reading | Find answers in English documentation and practice explaining technical ideas clearly |
 | **✍️ Writing** | Clarify before starting, record evidence while working, review after delivery | [Notebook](https://curforever.github.io/) · [Code-reading method](https://github.com/curforever/curforever-skills/tree/main/skills/development/code-reading-coach) |
 | **🏃 Movement** | Running, basketball and core training for a sustainable rhythm | Keep some interests free of KPIs; energy helps maintain focus |
-| **⌨️ Tinkering** | Keyboard feel and CSS experiments connect to everyday usability | [Keyboards](https://github.com/curforever/Keyboard) · [CSS experiments](https://github.com/curforever/CSSLearning) |
 
 <a id="experience"></a>
 ## 🎓 Experience & outcomes · What I've actually worked on
@@ -125,18 +124,12 @@ Custom mechanical keyboards for feel and selection; CSS experiments for visual e
 | **2025.07–09** | **Huawei · Server-side software development internship** | Business validation, scheduled retries and concurrency control; requirements, review and delivery |
 | **2025.07** | **HarmonyOS training program · Team project** | Health check-in app, interaction improvements and on-device demos; recognized as an outstanding team member |
 
-<a id="research"></a>
-### 🥽 Research outline · Perception → reuse → collaboration
-
-**One connected thesis project:** Chapter 3 combines Transformer-based task recognition and perceptual meta-learning for foveated-rendering parameter control. Chapter 4 explores shared-view object-block cache reuse with Double DQN. Chapter 5 integrates client-side perception and edge-side reuse into one system with experimental evaluation. The associated repositories remain private.
-
-**A separate publication:** first-author CSCWD 2025 paper on how virtual companions' movement and voice realism affect user experience in multi-user VR cinemas.
-
 | Selected outcome | Details |
 | :--- | :--- |
+| **🥽 Publication** | First-author CSCWD 2025 paper on virtual companions and multi-user VR cinema experience |
 | **🏅 Scholarships & recognition** | National-level scholarship; outstanding graduate student at SEU; outstanding graduate at HFUT |
 | **💻 Technical competitions** | China Software Cup national third prize (team library-management project); provincial second prizes in mathematical modeling and the Lanqiao Cup |
-| **🌍 Language & communication** | NECCS Category C second prize; CET-4: 617 / CET-6: 614; high-school English teaching qualification |
+| **🌍 Language & communication** | NECCS Category C second prize; Find answers in English documentation and practice explaining technical ideas clearly |
 | **🤝 Practice & sharing** | Outstanding theory/practice teams and individual recognition in HarmonyOS training; community-contributor recognition during the internship |
 
 <a id="growth"></a>

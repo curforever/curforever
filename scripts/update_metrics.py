@@ -10,7 +10,7 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 CATALOG = {
     'curforever-skills': ('Agent Skills', '开发、学习与项目管理技能集', 'Development, learning & project skills'),
-    'curforever.github.io': ('博客站点', '精选技术、阅读与播客笔记', 'Technical, reading & podcast notebook'),
+    'curforever.github.io': ('博客站点', '工程复盘、研究图解与阅读笔记', 'Engineering, research & reading notes'),
     'Keyboard': ('键盘记录', '试轴照片、手感体验与选型清单', 'Switch photos, feel & selection notes'),
     'CSSLearning': ('CSS 实验', 'CSS 学习案例与界面探索', 'CSS learning & interface experiments'),
     'leetcode-master': ('开源贡献', 'Fork：补充 Java、修正文档；4 个 PR 已合并', 'Fork: Java & documentation; 4 merged PRs'),
@@ -94,22 +94,22 @@ def project_index(repos, english=False):
 
 def trend_svg(history):
     points = history['snapshots']
-    width, height = 840, 174
+    width, height = 840, 112
     max_value = max(1, max(p['total_stars'] for p in points))
     first = datetime.fromisoformat(points[0]['date'])
     span = max(7, (datetime.fromisoformat(points[-1]['date']) - first).days)
-    coords = [(58 + 728 * (datetime.fromisoformat(p['date'])-first).days/span, 132 - 74*p['total_stars']/max_value) for p in points]
+    coords = [(58 + 728 * (datetime.fromisoformat(p['date'])-first).days/span, 82 - 36*p['total_stars']/max_value) for p in points]
     polyline = ' '.join(f'{x:.2f},{y:.2f}' for x, y in coords)
     dots = ''.join(f'<circle cx="{x:.2f}" cy="{y:.2f}" r="3.5" fill="#5eead4"><title>{p["date"]}: {p["total_stars"]} stars</title></circle>' for (x,y),p in zip(coords,points))
     last = points[-1]
     note = 'First snapshot recorded · more points arrive weekly' if len(points)==1 else f'{len(points)} observed snapshots · current total can rise or fall'
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-label="Public non-fork repository stars: weekly observed totals">
-<rect width="840" height="174" rx="10" fill="#101827"/>
-<g font-family="Segoe UI,Arial,sans-serif"><text x="24" y="28" fill="#a5b4fc" font-size="11" letter-spacing="1.5">PUBLIC REPOSITORIES / STAR SNAPSHOTS</text><text x="24" y="49" fill="#cbd5e1" font-size="12">{note}</text><text x="788" y="40" fill="#5eead4" font-size="27" text-anchor="end" font-weight="700">{last['total_stars']}</text>
-<path d="M58 58V132H786M58 58H786M58 95H786" fill="none" stroke="#334155" stroke-width="1"/>
-<text x="47" y="62" text-anchor="end" fill="#94a3b8" font-size="10">{max_value}</text><text x="47" y="136" text-anchor="end" fill="#94a3b8" font-size="10">0</text>
+<rect width="840" height="112" rx="10" fill="#101827"/>
+<g font-family="Segoe UI,Arial,sans-serif"><text x="24" y="22" fill="#a5b4fc" font-size="11" letter-spacing="1.5">PUBLIC REPOSITORIES / STAR SNAPSHOTS</text><text x="24" y="38" fill="#cbd5e1" font-size="11">{note}</text><text x="788" y="30" fill="#5eead4" font-size="24" text-anchor="end" font-weight="700">{last['total_stars']}</text>
+<path d="M58 46V82H786M58 46H786M58 64H786" fill="none" stroke="#334155" stroke-width="1"/>
+<text x="47" y="50" text-anchor="end" fill="#94a3b8" font-size="10">{max_value}</text><text x="47" y="86" text-anchor="end" fill="#94a3b8" font-size="10">0</text>
 <polyline points="{polyline}" fill="none" stroke="#2dd4bf" stroke-width="2"/>{dots}
-<text x="58" y="157" fill="#94a3b8" font-size="11">{points[0]['date']}</text><text x="786" y="157" fill="#94a3b8" font-size="11" text-anchor="end">Latest: {last['date']} · weekly snapshots</text></g></svg>\n'''
+<text x="58" y="103" fill="#94a3b8" font-size="11">{points[0]['date']}</text><text x="786" y="103" fill="#94a3b8" font-size="11" text-anchor="end">Latest: {last['date']} · weekly snapshots</text></g></svg>\n'''
 
 
 def main():
