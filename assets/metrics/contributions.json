@@ -1,7 +1,14 @@
 {
-  "updated_date_cst": "2026-10-07",
-  "merged_count": 4,
+  "updated_date_cst": "2026-10-12",
+  "merged_count": 5,
   "pull_requests": [
+    {
+      "repository": "electerm/electerm",
+      "number": 4572,
+      "title": "Fix PowerShell startup directories on Windows",
+      "url": "https://github.com/electerm/electerm/pull/4572",
+      "merged_at": "2026-10-07T11:53:34Z"
+    },
     {
       "repository": "youngyangyang04/leetcode-master",
       "number": 2915,

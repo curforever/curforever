@@ -6,6 +6,7 @@
 
 | 项目 | 改动 | PR | 合并日期（UTC） |
 | :--- | :--- | :---: | :--- |
+| [electerm/electerm](https://github.com/electerm/electerm) | Fix PowerShell startup directories on Windows | [#4572](https://github.com/electerm/electerm/pull/4572) | 2026-10-07 |
 | [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) | 补充 A\* 搜索的 Java 实现 | [#2915](https://github.com/youngyangyang04/leetcode-master/pull/2915) | 2025-08-13 |
 | [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) | 修正 Java 命名、统一迭代注释与文档格式 | [#2874](https://github.com/youngyangyang04/leetcode-master/pull/2874) | 2025-03-05 |
 | [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) | 修正复杂度分析，补充 KMP 实现与注释 | [#2871](https://github.com/youngyangyang04/leetcode-master/pull/2871) | 2025-01-21 |

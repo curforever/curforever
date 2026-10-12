@@ -1,5 +1,5 @@
 {
-  "updated_date_cst": "2026-10-07",
+  "updated_date_cst": "2026-10-12",
   "repositories": {
     "curforever-skills": {
       "stars": 0,
@@ -17,7 +17,47 @@
       "stars": 0,
       "forks": 0
     },
+    "context-propagation": {
+      "stars": 0,
+      "forks": 0
+    },
+    "curiosity-library": {
+      "stars": 0,
+      "forks": 0
+    },
+    "electerm": {
+      "stars": 0,
+      "forks": 0
+    },
+    "jackson-core": {
+      "stars": 0,
+      "forks": 0
+    },
+    "jgrapht": {
+      "stars": 0,
+      "forks": 0
+    },
+    "joda-time": {
+      "stars": 0,
+      "forks": 0
+    },
+    "JsonPath": {
+      "stars": 0,
+      "forks": 0
+    },
     "leetcode-master": {
+      "stars": 0,
+      "forks": 0
+    },
+    "logging-log4j2": {
+      "stars": 0,
+      "forks": 0
+    },
+    "react-native-cli": {
+      "stars": 0,
+      "forks": 0
+    },
+    "resilience4j": {
       "stars": 0,
       "forks": 0
     },

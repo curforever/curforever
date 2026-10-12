@@ -58,9 +58,9 @@
 <img src="assets/contribution-card.svg" width="100%" alt="开源贡献 · 不只 Fork，也递交补丁" />
 <!-- PUBLIC_CONTRIBUTIONS_START -->
 <b>开源贡献 · 不只 Fork，也递交补丁</b><br />
-已向《代码随想录》提交并合并 4 个 PR，补充 Java 实现并修正复杂度、注释与文档。合并记录可直接核验。<br /><br />
-<code>公开 PR</code> <code>合并记录</code> <code>4 PRs merged</code><br /><br />
-<a href="https://github.com/youngyangyang04/leetcode-master/pull/2915">最近合并的 PR →</a> · <a href="contributions/README.md">完整贡献记录 →</a>
+5 个公开对外 PR 已合并，来自 2 个项目。具体改动、链接与合并时间保存在贡献记录中。<br /><br />
+<code>公开 PR</code> <code>合并记录</code> <code>5 PRs merged</code><br /><br />
+<a href="https://github.com/electerm/electerm/pull/4572">最近合并的 PR →</a> · <a href="contributions/README.md">完整贡献记录 →</a>
 <!-- PUBLIC_CONTRIBUTIONS_END -->
 </td>
 <td width="50%" valign="top">
@@ -95,7 +95,17 @@
 | [博客站点](https://github.com/curforever/curforever.github.io) | ![Stars](assets/metrics/curforever.github.io-stars.svg) | ![Forks](assets/metrics/curforever.github.io-forks.svg) | 工程复盘、研究图解与阅读笔记 |
 | [键盘记录](https://github.com/curforever/Keyboard) | ![Stars](assets/metrics/Keyboard-stars.svg) | ![Forks](assets/metrics/Keyboard-forks.svg) | 试轴照片、手感体验与选型清单 |
 | [CSS 实验](https://github.com/curforever/CSSLearning) | ![Stars](assets/metrics/CSSLearning-stars.svg) | ![Forks](assets/metrics/CSSLearning-forks.svg) | CSS 学习案例与界面探索 |
+| [context-propagation](https://github.com/curforever/context-propagation) | ![Stars](assets/metrics/context-propagation-stars.svg) | ![Forks](assets/metrics/context-propagation-forks.svg) | Fork · Context Propagation API |
+| [curiosity-library](https://github.com/curforever/curiosity-library) | ![Stars](assets/metrics/curiosity-library-stars.svg) | ![Forks](assets/metrics/curiosity-library-forks.svg) | 好奇心书架：个人创作与 AI 协作作品集。 |
+| [electerm](https://github.com/curforever/electerm) | ![Stars](assets/metrics/electerm-stars.svg) | ![Forks](assets/metrics/electerm-forks.svg) | Fork · 📻Free and open-sourced terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android, HarmonyOS, iOS) |
+| [jackson-core](https://github.com/curforever/jackson-core) | ![Stars](assets/metrics/jackson-core-stars.svg) | ![Forks](assets/metrics/jackson-core-forks.svg) | Fork · Core part of Jackson that defines Streaming API as well as basic shared abstractions |
+| [jgrapht](https://github.com/curforever/jgrapht) | ![Stars](assets/metrics/jgrapht-stars.svg) | ![Forks](assets/metrics/jgrapht-forks.svg) | Fork · Master repository for the JGraphT project |
+| [joda-time](https://github.com/curforever/joda-time) | ![Stars](assets/metrics/joda-time-stars.svg) | ![Forks](assets/metrics/joda-time-forks.svg) | Fork · Joda-Time is the widely used replacement for the Java date and time classes prior to Java SE 8. |
+| [JsonPath](https://github.com/curforever/JsonPath) | ![Stars](assets/metrics/JsonPath-stars.svg) | ![Forks](assets/metrics/JsonPath-forks.svg) | Fork · Java JsonPath implementation |
 | [开源贡献](https://github.com/curforever/leetcode-master) | ![Stars](assets/metrics/leetcode-master-stars.svg) | ![Forks](assets/metrics/leetcode-master-forks.svg) | Fork：补充 Java 实现与文档修正 |
+| [logging-log4j2](https://github.com/curforever/logging-log4j2) | ![Stars](assets/metrics/logging-log4j2-stars.svg) | ![Forks](assets/metrics/logging-log4j2-forks.svg) | Fork · Apache Log4j is a versatile, feature-rich, efficient logging API and backend for Java. |
+| [react-native-cli](https://github.com/curforever/react-native-cli) | ![Stars](assets/metrics/react-native-cli-stars.svg) | ![Forks](assets/metrics/react-native-cli-forks.svg) | Fork · The React Native Community CLI — Command line tools to help you build React Native apps |
+| [resilience4j](https://github.com/curforever/resilience4j) | ![Stars](assets/metrics/resilience4j-stars.svg) | ![Forks](assets/metrics/resilience4j-forks.svg) | Fork · Resilience4j is a fault tolerance library designed for Java8 and functional programming |
 | [外卖平台](https://github.com/curforever/CangQiongWaiMai-Java) | ![Stars](assets/metrics/CangQiongWaiMai-Java-stars.svg) | ![Forks](assets/metrics/CangQiongWaiMai-Java-forks.svg) | 课程练习：业务、缓存与 Spring |
 | [博客源码](https://github.com/curforever/HexoBlogBackup) | ![Stars](assets/metrics/HexoBlogBackup-stars.svg) | ![Forks](assets/metrics/HexoBlogBackup-forks.svg) | Hexo 内容、主题与站点配置 |
 | [主页工程](https://github.com/curforever/curforever) | ![Stars](assets/metrics/curforever-stars.svg) | ![Forks](assets/metrics/curforever-forks.svg) | 中英文主页、展示素材与指标刷新 |

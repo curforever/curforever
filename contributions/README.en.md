@@ -6,6 +6,7 @@ Public external PRs verified against repository visibility and merge state. Upda
 
 | Project | Change | PR | Merged (UTC) |
 | :--- | :--- | :---: | :--- |
+| [electerm/electerm](https://github.com/electerm/electerm) | Fix PowerShell startup directories on Windows | [#4572](https://github.com/electerm/electerm/pull/4572) | 2026-10-07 |
 | [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) | Add an A\* search implementation in Java | [#2915](https://github.com/youngyangyang04/leetcode-master/pull/2915) | 2025-08-13 |
 | [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) | Fix Java naming, iteration comments and document formatting | [#2874](https://github.com/youngyangyang04/leetcode-master/pull/2874) | 2025-03-05 |
 | [youngyangyang04/leetcode-master](https://github.com/youngyangyang04/leetcode-master) | Correct complexity analysis; add KMP implementation and comments | [#2871](https://github.com/youngyangyang04/leetcode-master/pull/2871) | 2025-01-21 |

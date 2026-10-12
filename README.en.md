@@ -58,9 +58,9 @@ Harmony state consistency, Java latency investigation and VR quality/cache trade
 <img src="assets/contribution-card.svg" width="100%" alt="Open source · Beyond the Fork button" />
 <!-- PUBLIC_CONTRIBUTIONS_START -->
 <b>Contributions · Send patches upstream</b><br />
-4 verified merged PRs across 1 public projects. Changes and merge dates are recorded with direct links.<br /><br />
-<code>Public PRs</code> <code>Merge evidence</code> <code>4 PRs merged</code><br /><br />
-<a href="https://github.com/youngyangyang04/leetcode-master/pull/2915">Latest merged PR →</a> · <a href="contributions/README.en.md">Contribution record →</a>
+5 verified merged PRs across 2 public projects. Changes and merge dates are recorded with direct links.<br /><br />
+<code>Public PRs</code> <code>Merge evidence</code> <code>5 PRs merged</code><br /><br />
+<a href="https://github.com/electerm/electerm/pull/4572">Latest merged PR →</a> · <a href="contributions/README.en.md">Contribution record →</a>
 <!-- PUBLIC_CONTRIBUTIONS_END -->
 </td>
 <td width="50%" valign="top">
@@ -95,7 +95,17 @@ Custom mechanical keyboards for feel and selection; CSS experiments for visual e
 | [curforever.github.io](https://github.com/curforever/curforever.github.io) | ![Stars](assets/metrics/curforever.github.io-stars.svg) | ![Forks](assets/metrics/curforever.github.io-forks.svg) | Engineering, research &amp; reading notes |
 | [Keyboard](https://github.com/curforever/Keyboard) | ![Stars](assets/metrics/Keyboard-stars.svg) | ![Forks](assets/metrics/Keyboard-forks.svg) | Switch photos, feel &amp; selection notes |
 | [CSSLearning](https://github.com/curforever/CSSLearning) | ![Stars](assets/metrics/CSSLearning-stars.svg) | ![Forks](assets/metrics/CSSLearning-forks.svg) | CSS learning &amp; interface experiments |
+| [context-propagation](https://github.com/curforever/context-propagation) | ![Stars](assets/metrics/context-propagation-stars.svg) | ![Forks](assets/metrics/context-propagation-forks.svg) | Fork · Context Propagation API |
+| [curiosity-library](https://github.com/curforever/curiosity-library) | ![Stars](assets/metrics/curiosity-library-stars.svg) | ![Forks](assets/metrics/curiosity-library-forks.svg) | 好奇心书架：个人创作与 AI 协作作品集。 |
+| [electerm](https://github.com/curforever/electerm) | ![Stars](assets/metrics/electerm-stars.svg) | ![Forks](assets/metrics/electerm-forks.svg) | Fork · 📻Free and open-sourced terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android, HarmonyOS, iOS) |
+| [jackson-core](https://github.com/curforever/jackson-core) | ![Stars](assets/metrics/jackson-core-stars.svg) | ![Forks](assets/metrics/jackson-core-forks.svg) | Fork · Core part of Jackson that defines Streaming API as well as basic shared abstractions |
+| [jgrapht](https://github.com/curforever/jgrapht) | ![Stars](assets/metrics/jgrapht-stars.svg) | ![Forks](assets/metrics/jgrapht-forks.svg) | Fork · Master repository for the JGraphT project |
+| [joda-time](https://github.com/curforever/joda-time) | ![Stars](assets/metrics/joda-time-stars.svg) | ![Forks](assets/metrics/joda-time-forks.svg) | Fork · Joda-Time is the widely used replacement for the Java date and time classes prior to Java SE 8. |
+| [JsonPath](https://github.com/curforever/JsonPath) | ![Stars](assets/metrics/JsonPath-stars.svg) | ![Forks](assets/metrics/JsonPath-forks.svg) | Fork · Java JsonPath implementation |
 | [leetcode-master](https://github.com/curforever/leetcode-master) | ![Stars](assets/metrics/leetcode-master-stars.svg) | ![Forks](assets/metrics/leetcode-master-forks.svg) | Fork: Java implementations and documentation fixes |
+| [logging-log4j2](https://github.com/curforever/logging-log4j2) | ![Stars](assets/metrics/logging-log4j2-stars.svg) | ![Forks](assets/metrics/logging-log4j2-forks.svg) | Fork · Apache Log4j is a versatile, feature-rich, efficient logging API and backend for Java. |
+| [react-native-cli](https://github.com/curforever/react-native-cli) | ![Stars](assets/metrics/react-native-cli-stars.svg) | ![Forks](assets/metrics/react-native-cli-forks.svg) | Fork · The React Native Community CLI — Command line tools to help you build React Native apps |
+| [resilience4j](https://github.com/curforever/resilience4j) | ![Stars](assets/metrics/resilience4j-stars.svg) | ![Forks](assets/metrics/resilience4j-forks.svg) | Fork · Resilience4j is a fault tolerance library designed for Java8 and functional programming |
 | [CangQiongWaiMai-Java](https://github.com/curforever/CangQiongWaiMai-Java) | ![Stars](assets/metrics/CangQiongWaiMai-Java-stars.svg) | ![Forks](assets/metrics/CangQiongWaiMai-Java-forks.svg) | Course practice: business, cache &amp; Spring |
 | [HexoBlogBackup](https://github.com/curforever/HexoBlogBackup) | ![Stars](assets/metrics/HexoBlogBackup-stars.svg) | ![Forks](assets/metrics/HexoBlogBackup-forks.svg) | Hexo content, theme &amp; configuration |
 | [curforever](https://github.com/curforever/curforever) | ![Stars](assets/metrics/curforever-stars.svg) | ![Forks](assets/metrics/curforever-forks.svg) | Bilingual profile, assets &amp; metric refresh |
