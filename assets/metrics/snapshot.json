@@ -1,5 +1,5 @@
 {
-  "updated_date_cst": "2026-10-12",
+  "updated_date_cst": "2026-10-19",
   "repositories": {
     "curforever-skills": {
       "stars": 0,
@@ -29,6 +29,10 @@
       "stars": 0,
       "forks": 0
     },
+    "handlebars.java": {
+      "stars": 0,
+      "forks": 0
+    },
     "jackson-core": {
       "stars": 0,
       "forks": 0
@@ -37,7 +41,15 @@
       "stars": 0,
       "forks": 0
     },
+    "jna": {
+      "stars": 0,
+      "forks": 0
+    },
     "joda-time": {
+      "stars": 0,
+      "forks": 0
+    },
+    "json-schema-validator": {
       "stars": 0,
       "forks": 0
     },
@@ -53,11 +65,27 @@
       "stars": 0,
       "forks": 0
     },
+    "mustache.java": {
+      "stars": 0,
+      "forks": 0
+    },
     "react-native-cli": {
       "stars": 0,
       "forks": 0
     },
     "resilience4j": {
+      "stars": 0,
+      "forks": 0
+    },
+    "snappy-java": {
+      "stars": 0,
+      "forks": 0
+    },
+    "zjsonpatch": {
+      "stars": 0,
+      "forks": 0
+    },
+    "zt-exec": {
       "stars": 0,
       "forks": 0
     },
