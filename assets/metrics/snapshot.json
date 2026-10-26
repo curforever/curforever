@@ -1,5 +1,5 @@
 {
-  "updated_date_cst": "2026-10-19",
+  "updated_date_cst": "2026-10-26",
   "repositories": {
     "curforever-skills": {
       "stars": 0,
@@ -17,11 +17,23 @@
       "stars": 0,
       "forks": 0
     },
+    "any-agent": {
+      "stars": 0,
+      "forks": 0
+    },
+    "claude-code-from-scratch": {
+      "stars": 0,
+      "forks": 0
+    },
     "context-propagation": {
       "stars": 0,
       "forks": 0
     },
     "curiosity-library": {
+      "stars": 0,
+      "forks": 0
+    },
+    "djl": {
       "stars": 0,
       "forks": 0
     },
@@ -34,6 +46,14 @@
       "forks": 0
     },
     "jackson-core": {
+      "stars": 0,
+      "forks": 0
+    },
+    "javaparser": {
+      "stars": 0,
+      "forks": 0
+    },
+    "jfreechart": {
       "stars": 0,
       "forks": 0
     },
@@ -66,6 +86,14 @@
       "forks": 0
     },
     "mustache.java": {
+      "stars": 0,
+      "forks": 0
+    },
+    "pi-hermes-memory": {
+      "stars": 0,
+      "forks": 0
+    },
+    "ponytail": {
       "stars": 0,
       "forks": 0
     },

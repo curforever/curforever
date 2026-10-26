@@ -1,7 +1,42 @@
 {
-  "updated_date_cst": "2026-10-19",
-  "merged_count": 5,
+  "updated_date_cst": "2026-10-26",
+  "merged_count": 10,
   "pull_requests": [
+    {
+      "repository": "chandra447/pi-hermes-memory",
+      "number": 306,
+      "title": "fix(store): prevent duplicate bodies from replacement",
+      "url": "https://github.com/chandra447/pi-hermes-memory/pull/306",
+      "merged_at": "2026-10-25T06:22:51Z"
+    },
+    {
+      "repository": "jknack/handlebars.java",
+      "number": 1198,
+      "title": "Handle null dynamic keys in lookup helper",
+      "url": "https://github.com/jknack/handlebars.java/pull/1198",
+      "merged_at": "2026-10-24T12:42:47Z"
+    },
+    {
+      "repository": "networknt/json-schema-validator",
+      "number": 1331,
+      "title": "Reject space separators in the date-time format",
+      "url": "https://github.com/networknt/json-schema-validator/pull/1331",
+      "merged_at": "2026-10-23T20:34:12Z"
+    },
+    {
+      "repository": "flipkart-incubator/zjsonpatch",
+      "number": 251,
+      "title": "Fix Jackson 2 array iteration without a ListIterator cast",
+      "url": "https://github.com/flipkart-incubator/zjsonpatch/pull/251",
+      "merged_at": "2026-10-21T11:46:15Z"
+    },
+    {
+      "repository": "jgrapht/jgrapht",
+      "number": 1395,
+      "title": "Prevent floating-point cycles in TwoOptHeuristicTSP",
+      "url": "https://github.com/jgrapht/jgrapht/pull/1395",
+      "merged_at": "2026-10-19T15:20:10Z"
+    },
     {
       "repository": "electerm/electerm",
       "number": 4572,
