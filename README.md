@@ -58,23 +58,23 @@
 <img src="assets/contribution-card.svg" width="100%" alt="开源贡献 · 不只 Fork，也递交补丁" />
 <!-- PUBLIC_CONTRIBUTIONS_START -->
 <b>开源贡献 · 不只 Fork，也递交补丁</b><br />
-11 个公开对外 PR 已合并，来自 8 个项目。具体改动、链接与合并时间保存在贡献记录中。<br /><br />
+11 个公开对外 PR 已合并，来自 8 个项目。代表案例：修复 Log4j JPA 异常还原时的消息丢失，并补充回归测试。<br /><br />
 <code>公开 PR</code> <code>合并记录</code> <code>11 PRs merged</code><br /><br />
-<a href="https://github.com/apache/logging-log4j2/pull/4401">最近合并的 PR →</a> · <a href="contributions/README.md">完整贡献记录 →</a>
+<a href="https://github.com/apache/logging-log4j2/pull/4401">案例 PR →</a> · <a href="contributions/README.md">完整贡献记录 →</a>
 <!-- PUBLIC_CONTRIBUTIONS_END -->
 </td>
 <td width="50%" valign="top">
 <img src="assets/hobbies-card.svg" width="100%" alt="兴趣实验室 · 输入设备到界面体验" />
 <b>兴趣实验室 · 输入设备到界面体验</b><br />
-客制化机械键盘记录手感与选型，CSS 小实验练习界面表达。从每天接触的工具出发，认真调一调手感与像素。<br /><br />
+好奇心书架收纳个人创作与 AI 协作作品；键盘记录与 CSS 小实验，探索日常工具的手感与界面表达。<br /><br />
 <code>机械键盘</code> <code>CSS</code> <code>界面体验</code><br /><br />
-<a href="https://github.com/curforever/Keyboard">键盘记录 →</a> · <a href="https://github.com/curforever/CSSLearning">CSS 小实验 →</a>
+<a href="https://github.com/curforever/curiosity-library">好奇心书架 →</a> · <a href="https://github.com/curforever/Keyboard">键盘记录 →</a> · <a href="https://github.com/curforever/CSSLearning">CSS 小实验 →</a>
 </td>
 </tr>
 </table>
 
 <a id="stack"></a>
-## 🧰 技术栈 · 从客户端到服务端，也关心性能与体验
+## 🧰 技术栈
 
 | 方向 | 工具与技术 | 我关注的问题 |
 | :--- | :--- | :--- |
@@ -86,7 +86,7 @@
 | **工程工具与基础** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Agent Skills](https://img.shields.io/badge/Agent%20Skills-7C3AED?style=flat-square) ![Network / OS](https://img.shields.io/badge/Network%20%2F%20OS-0369A1?style=flat-square) | 源码阅读、可复用 AI 工作流、知识沉淀、TCP / HTTP 与 I/O |
 
 <a id="projects"></a>
-## 📦 项目索引 · 公开仓库，一句话说明白
+## 📦 公开项目
 
 <!-- PUBLIC_PROJECTS_START -->
 | 项目 | Stars | Forks | 用途与边界 |
@@ -117,7 +117,7 @@
 | **🏃 运动 · 给大脑散热** | 跑步调节节奏，篮球练习配合；晴天慢跑，雨天核心训练 | 不追求把每个爱好都变成 KPI，保持精力才能持续投入 |
 
 <a id="experience"></a>
-## 🎓 经历与成果 · 不只列标签，也留下做过的事
+## 🎓 经历与成果
 
 | 阶段 | 经历 | 方向与收获 |
 | :--- | :--- | :--- |
@@ -142,7 +142,7 @@
 <sub>统计当前公开、非 Fork 仓库的 Stars 总量，按周记录快照；从首次采集开始积累，后续自动连成趋势线。</sub>
 
 <a id="contact"></a>
-## 💬 有想法、问题或合作机会？欢迎一起聊聊
+## 💬 交流与反馈
 
 欢迎在 [Issues 留言](https://github.com/curforever/curforever/issues)，交流技术、反馈工具，或者一起把有意思的想法做出来。
 

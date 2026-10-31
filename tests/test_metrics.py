@@ -11,6 +11,23 @@ spec.loader.exec_module(metrics)
 
 
 class RefreshBoundaryTests(unittest.TestCase):
+    def test_contribution_example_survives_newer_pr_and_requires_verified_record(self):
+        newest = {'repository': 'upstream/newer', 'number': 1,
+                  'url': 'https://github.com/upstream/newer/pull/1'}
+        example = {'repository': 'apache/logging-log4j2', 'number': 4401,
+                   'url': 'https://github.com/apache/logging-log4j2/pull/4401'}
+        for english in (False, True):
+            card = metrics.contribution_card([newest, example], english)
+            self.assertIn('Log4j', card)
+            self.assertIn(example['url'], card)
+            self.assertNotIn(newest['url'], card)
+            self.assertIn('2 PRs merged', card)
+            self.assertIn('regression tests' if english else '回归测试', card)
+            fallback = metrics.contribution_card([newest], english)
+            self.assertNotIn('Log4j', fallback)
+            self.assertIn(newest['url'], fallback)
+            self.assertNotIn('Log4j', metrics.contribution_card([], english))
+
     def test_repository_refresh_excludes_forks_private_and_other_owners(self):
         def repo(name, owner='curforever', private=False, fork=False):
             return {'name': name, 'owner': {'login': owner}, 'private': private, 'fork': fork}

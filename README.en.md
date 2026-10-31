@@ -58,23 +58,23 @@ Harmony state consistency, Java latency investigation and VR quality/cache trade
 <img src="assets/contribution-card.svg" width="100%" alt="Open source · Beyond the Fork button" />
 <!-- PUBLIC_CONTRIBUTIONS_START -->
 <b>Contributions · Send patches upstream</b><br />
-11 verified merged PRs across 8 public projects. Changes and merge dates are recorded with direct links.<br /><br />
+11 verified merged PRs across 8 public projects. Example: fix lost exception messages during Log4j JPA restoration, with regression tests.<br /><br />
 <code>Public PRs</code> <code>Merge evidence</code> <code>11 PRs merged</code><br /><br />
-<a href="https://github.com/apache/logging-log4j2/pull/4401">Latest merged PR →</a> · <a href="contributions/README.en.md">Contribution record →</a>
+<a href="https://github.com/apache/logging-log4j2/pull/4401">Example PR →</a> · <a href="contributions/README.en.md">Contribution record →</a>
 <!-- PUBLIC_CONTRIBUTIONS_END -->
 </td>
 <td width="50%" valign="top">
 <img src="assets/hobbies-card.svg" width="100%" alt="Curiosity lab · Hardware feel to UI details" />
 <b>Curiosity lab · Hardware feel to UI details</b><br />
-Custom mechanical keyboards for feel and selection; CSS experiments for visual expression. Explore the everyday details of tools and interfaces.<br /><br />
+Curiosity Library collects personal creations and AI-assisted work; keyboard notes and CSS experiments explore everyday tools and interfaces.<br /><br />
 <code>Keyboards</code> <code>CSS</code> <code>Interfaces</code><br /><br />
-<a href="https://github.com/curforever/Keyboard">Keyboard notes →</a> · <a href="https://github.com/curforever/CSSLearning">CSS experiments →</a>
+<a href="https://github.com/curforever/curiosity-library">Curiosity Library →</a> · <a href="https://github.com/curforever/Keyboard">Keyboard notes →</a> · <a href="https://github.com/curforever/CSSLearning">CSS experiments →</a>
 </td>
 </tr>
 </table>
 
 <a id="stack"></a>
-## 🧰 Toolbox · Client, server, performance & interaction
+## 🧰 Technical toolbox
 
 | Direction | Tools & technologies | Questions I explore |
 | :--- | :--- | :--- |
@@ -86,7 +86,7 @@ Custom mechanical keyboards for feel and selection; CSS experiments for visual e
 | **Engineering foundations** | ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Agent Skills](https://img.shields.io/badge/Agent%20Skills-7C3AED?style=flat-square) ![Network / OS](https://img.shields.io/badge/Network%20%2F%20OS-0369A1?style=flat-square) | Source reading, reusable AI workflows, knowledge capture, networking and I/O |
 
 <a id="projects"></a>
-## 📦 Project index · Public repositories with context
+## 📦 Public projects
 
 <!-- PUBLIC_PROJECTS_START -->
 | Project | Stars | Forks | Purpose & context |
@@ -117,7 +117,7 @@ Custom mechanical keyboards for feel and selection; CSS experiments for visual e
 | **🏃 Movement** | Running, basketball and core training for a sustainable rhythm | Keep some interests free of KPIs; energy helps maintain focus |
 
 <a id="experience"></a>
-## 🎓 Experience & outcomes · What I've actually worked on
+## 🎓 Experience & achievements
 
 | Period | Experience | Focus & lessons |
 | :--- | :--- | :--- |
@@ -142,7 +142,7 @@ Custom mechanical keyboards for feel and selection; CSS experiments for visual e
 <sub>Current total stars across public, non-fork repositories, sampled weekly. The first real snapshot starts the series; subsequent snapshots form the trend.</sub>
 
 <a id="contact"></a>
-## 💬 Ideas, feedback or collaboration? Let's talk
+## 💬 Contact & feedback
 
 Leave a note in [Issues](https://github.com/curforever/curforever/issues) to discuss technology, improve a tool or build something interesting together.
 

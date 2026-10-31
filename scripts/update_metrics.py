@@ -87,6 +87,8 @@ def markdown_text(value):
 def contribution_card(prs, english=False):
     count = len(prs)
     projects = len({p['repository'] for p in prs})
+    example = next((p for p in prs
+                    if p['repository'] == 'apache/logging-log4j2' and p['number'] == 4401), None)
     if english:
         title = 'Contributions · Send patches upstream'
         text = f'{count} verified merged PRs across {projects} public projects. Changes and merge dates are recorded with direct links.'
@@ -101,7 +103,15 @@ def contribution_card(prs, english=False):
         labels = '公开 PR', '合并记录'
         first, second = '最近合并的 PR →', '完整贡献记录 →'
         record = 'contributions/README.md'
-    latest = (f'<a href="{escape(prs[0]["url"])}">{first}</a> · ' if prs else '')
+    if example:
+        text = (f'{count} verified merged PRs across {projects} public projects. '
+                'Example: fix lost exception messages during Log4j JPA restoration, with regression tests.'
+                if english else
+                f'{count} 个公开对外 PR 已合并，来自 {projects} 个项目。'
+                '代表案例：修复 Log4j JPA 异常还原时的消息丢失，并补充回归测试。')
+        first = 'Example PR →' if english else '案例 PR →'
+    primary = example or (prs[0] if prs else None)
+    latest = (f'<a href="{escape(primary["url"], quote=True)}">{first}</a> · ' if primary else '')
     return (f'<b>{title}</b><br />\n{text}<br /><br />\n'
             f'<code>{labels[0]}</code> <code>{labels[1]}</code> <code>{count} PRs merged</code><br /><br />\n'
             f'{latest}<a href="{record}">{second}</a>')
