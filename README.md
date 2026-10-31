@@ -58,9 +58,9 @@
 <img src="assets/contribution-card.svg" width="100%" alt="开源贡献 · 不只 Fork，也递交补丁" />
 <!-- PUBLIC_CONTRIBUTIONS_START -->
 <b>开源贡献 · 不只 Fork，也递交补丁</b><br />
-10 个公开对外 PR 已合并，来自 7 个项目。具体改动、链接与合并时间保存在贡献记录中。<br /><br />
-<code>公开 PR</code> <code>合并记录</code> <code>10 PRs merged</code><br /><br />
-<a href="https://github.com/chandra447/pi-hermes-memory/pull/306">最近合并的 PR →</a> · <a href="contributions/README.md">完整贡献记录 →</a>
+11 个公开对外 PR 已合并，来自 8 个项目。具体改动、链接与合并时间保存在贡献记录中。<br /><br />
+<code>公开 PR</code> <code>合并记录</code> <code>11 PRs merged</code><br /><br />
+<a href="https://github.com/apache/logging-log4j2/pull/4401">最近合并的 PR →</a> · <a href="contributions/README.md">完整贡献记录 →</a>
 <!-- PUBLIC_CONTRIBUTIONS_END -->
 </td>
 <td width="50%" valign="top">

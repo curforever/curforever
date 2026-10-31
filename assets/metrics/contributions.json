@@ -1,7 +1,14 @@
 {
-  "updated_date_cst": "2026-10-26",
-  "merged_count": 10,
+  "updated_date_cst": "2026-10-31",
+  "merged_count": 11,
   "pull_requests": [
+    {
+      "repository": "apache/logging-log4j2",
+      "number": 4401,
+      "title": "Preserve JPA throwable messages with no-arg constructors",
+      "url": "https://github.com/apache/logging-log4j2/pull/4401",
+      "merged_at": "2026-10-30T11:15:32Z"
+    },
     {
       "repository": "chandra447/pi-hermes-memory",
       "number": 306,

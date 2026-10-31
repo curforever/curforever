@@ -58,9 +58,9 @@ Harmony state consistency, Java latency investigation and VR quality/cache trade
 <img src="assets/contribution-card.svg" width="100%" alt="Open source · Beyond the Fork button" />
 <!-- PUBLIC_CONTRIBUTIONS_START -->
 <b>Contributions · Send patches upstream</b><br />
-10 verified merged PRs across 7 public projects. Changes and merge dates are recorded with direct links.<br /><br />
-<code>Public PRs</code> <code>Merge evidence</code> <code>10 PRs merged</code><br /><br />
-<a href="https://github.com/chandra447/pi-hermes-memory/pull/306">Latest merged PR →</a> · <a href="contributions/README.en.md">Contribution record →</a>
+11 verified merged PRs across 8 public projects. Changes and merge dates are recorded with direct links.<br /><br />
+<code>Public PRs</code> <code>Merge evidence</code> <code>11 PRs merged</code><br /><br />
+<a href="https://github.com/apache/logging-log4j2/pull/4401">Latest merged PR →</a> · <a href="contributions/README.en.md">Contribution record →</a>
 <!-- PUBLIC_CONTRIBUTIONS_END -->
 </td>
 <td width="50%" valign="top">

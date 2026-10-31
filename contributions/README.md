@@ -6,6 +6,7 @@
 
 | 项目 | 改动 | PR | 合并日期（UTC） |
 | :--- | :--- | :---: | :--- |
+| [apache/logging-log4j2](https://github.com/apache/logging-log4j2) | Preserve JPA throwable messages with no-arg constructors | [#4401](https://github.com/apache/logging-log4j2/pull/4401) | 2026-10-30 |
 | [chandra447/pi-hermes-memory](https://github.com/chandra447/pi-hermes-memory) | fix(store): prevent duplicate bodies from replacement | [#306](https://github.com/chandra447/pi-hermes-memory/pull/306) | 2026-10-25 |
 | [jknack/handlebars.java](https://github.com/jknack/handlebars.java) | Handle null dynamic keys in lookup helper | [#1198](https://github.com/jknack/handlebars.java/pull/1198) | 2026-10-24 |
 | [networknt/json-schema-validator](https://github.com/networknt/json-schema-validator) | Reject space separators in the date-time format | [#1331](https://github.com/networknt/json-schema-validator/pull/1331) | 2026-10-23 |
