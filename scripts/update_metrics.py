@@ -14,7 +14,6 @@ CATALOG = {
     'curforever.github.io': ('博客站点', '工程复盘、研究图解与阅读笔记', 'Engineering, research & reading notes'),
     'Keyboard': ('键盘记录', '试轴照片、手感体验与选型清单', 'Switch photos, feel & selection notes'),
     'CSSLearning': ('CSS 实验', 'CSS 学习案例与界面探索', 'CSS learning & interface experiments'),
-    'leetcode-master': ('开源贡献', 'Fork：补充 Java 实现与文档修正', 'Fork: Java implementations and documentation fixes'),
     'CangQiongWaiMai-Java': ('外卖平台', '课程练习：业务、缓存与 Spring', 'Course practice: business, cache & Spring'),
     'HexoBlogBackup': ('博客源码', 'Hexo 内容、主题与站点配置', 'Hexo content, theme & configuration'),
     'curforever': ('主页工程', '中英文主页、展示素材与指标刷新', 'Bilingual profile, assets & metric refresh'),
@@ -36,7 +35,7 @@ def github_public_repos():
     while True:
         data = github_json(f'users/curforever/repos?type=owner&per_page=100&page={page}')
         for repo in data:
-            if repo['private'] or repo['owner']['login'].lower() != 'curforever':
+            if repo['private'] or repo['fork'] or repo['owner']['login'].lower() != 'curforever':
                 continue
             repositories.append(repo)
         if len(data) < 100:

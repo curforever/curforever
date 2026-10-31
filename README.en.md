@@ -95,37 +95,13 @@ Custom mechanical keyboards for feel and selection; CSS experiments for visual e
 | [curforever.github.io](https://github.com/curforever/curforever.github.io) | ![Stars](assets/metrics/curforever.github.io-stars.svg) | ![Forks](assets/metrics/curforever.github.io-forks.svg) | Engineering, research &amp; reading notes |
 | [Keyboard](https://github.com/curforever/Keyboard) | ![Stars](assets/metrics/Keyboard-stars.svg) | ![Forks](assets/metrics/Keyboard-forks.svg) | Switch photos, feel &amp; selection notes |
 | [CSSLearning](https://github.com/curforever/CSSLearning) | ![Stars](assets/metrics/CSSLearning-stars.svg) | ![Forks](assets/metrics/CSSLearning-forks.svg) | CSS learning &amp; interface experiments |
-| [any-agent](https://github.com/curforever/any-agent) | ![Stars](assets/metrics/any-agent-stars.svg) | ![Forks](assets/metrics/any-agent-forks.svg) | Fork · A single interface to use and evaluate different agent frameworks  |
-| [claude-code-from-scratch](https://github.com/curforever/claude-code-from-scratch) | ![Stars](assets/metrics/claude-code-from-scratch-stars.svg) | ![Forks](assets/metrics/claude-code-from-scratch-forks.svg) | Fork · Build your own Claude Code from scratch.  🔍 Claude Code 开源了 50 万行代码，读不动？用 ~5000 行 TypeScript / Python 从零复现核心架构，11 章分步教程带你理解 coding agent 精髓 |
-| [context-propagation](https://github.com/curforever/context-propagation) | ![Stars](assets/metrics/context-propagation-stars.svg) | ![Forks](assets/metrics/context-propagation-forks.svg) | Fork · Context Propagation API |
-| [curiosity-library](https://github.com/curforever/curiosity-library) | ![Stars](assets/metrics/curiosity-library-stars.svg) | ![Forks](assets/metrics/curiosity-library-forks.svg) | 好奇心书架：个人创作与 AI 协作作品集。 |
-| [djl](https://github.com/curforever/djl) | ![Stars](assets/metrics/djl-stars.svg) | ![Forks](assets/metrics/djl-forks.svg) | Fork · An Engine-Agnostic Deep Learning Framework in Java |
-| [electerm](https://github.com/curforever/electerm) | ![Stars](assets/metrics/electerm-stars.svg) | ![Forks](assets/metrics/electerm-forks.svg) | Fork · 📻Free and open-sourced terminal/ssh/sftp/ftp/telnet/serialport/RDP/VNC/Spice client(Linux, Mac, Windows, Android, HarmonyOS, iOS) |
-| [handlebars.java](https://github.com/curforever/handlebars.java) | ![Stars](assets/metrics/handlebars.java-stars.svg) | ![Forks](assets/metrics/handlebars.java-forks.svg) | Fork · Logic-less and semantic Mustache templates with Java |
-| [jackson-core](https://github.com/curforever/jackson-core) | ![Stars](assets/metrics/jackson-core-stars.svg) | ![Forks](assets/metrics/jackson-core-forks.svg) | Fork · Core part of Jackson that defines Streaming API as well as basic shared abstractions |
-| [javaparser](https://github.com/curforever/javaparser) | ![Stars](assets/metrics/javaparser-stars.svg) | ![Forks](assets/metrics/javaparser-forks.svg) | Fork · Java 1-25 Parser and Abstract Syntax Tree for Java with advanced analysis functionalities. |
-| [jfreechart](https://github.com/curforever/jfreechart) | ![Stars](assets/metrics/jfreechart-stars.svg) | ![Forks](assets/metrics/jfreechart-forks.svg) | Fork · A 2D chart library for Java applications (JavaFX, Swing or server-side). |
-| [jgrapht](https://github.com/curforever/jgrapht) | ![Stars](assets/metrics/jgrapht-stars.svg) | ![Forks](assets/metrics/jgrapht-forks.svg) | Fork · Master repository for the JGraphT project |
-| [jna](https://github.com/curforever/jna) | ![Stars](assets/metrics/jna-stars.svg) | ![Forks](assets/metrics/jna-forks.svg) | Fork · Java Native Access |
-| [joda-time](https://github.com/curforever/joda-time) | ![Stars](assets/metrics/joda-time-stars.svg) | ![Forks](assets/metrics/joda-time-forks.svg) | Fork · Joda-Time is the widely used replacement for the Java date and time classes prior to Java SE 8. |
-| [json-schema-validator](https://github.com/curforever/json-schema-validator) | ![Stars](assets/metrics/json-schema-validator-stars.svg) | ![Forks](assets/metrics/json-schema-validator-forks.svg) | Fork · A fast Java JSON schema validator that supports draft V4, V6, V7, V2019-09 and V2020-12 |
-| [JsonPath](https://github.com/curforever/JsonPath) | ![Stars](assets/metrics/JsonPath-stars.svg) | ![Forks](assets/metrics/JsonPath-forks.svg) | Fork · Java JsonPath implementation |
-| [leetcode-master](https://github.com/curforever/leetcode-master) | ![Stars](assets/metrics/leetcode-master-stars.svg) | ![Forks](assets/metrics/leetcode-master-forks.svg) | Fork: Java implementations and documentation fixes |
-| [logging-log4j2](https://github.com/curforever/logging-log4j2) | ![Stars](assets/metrics/logging-log4j2-stars.svg) | ![Forks](assets/metrics/logging-log4j2-forks.svg) | Fork · Apache Log4j is a versatile, feature-rich, efficient logging API and backend for Java. |
-| [mustache.java](https://github.com/curforever/mustache.java) | ![Stars](assets/metrics/mustache.java-stars.svg) | ![Forks](assets/metrics/mustache.java-forks.svg) | Fork · Implementation of mustache.js for Java |
-| [pi-hermes-memory](https://github.com/curforever/pi-hermes-memory) | ![Stars](assets/metrics/pi-hermes-memory-stars.svg) | ![Forks](assets/metrics/pi-hermes-memory-forks.svg) | Fork · Hermes-style persistent memory and learning loop for Pi coding agent |
-| [ponytail](https://github.com/curforever/ponytail) | ![Stars](assets/metrics/ponytail-stars.svg) | ![Forks](assets/metrics/ponytail-forks.svg) | Fork · Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote. |
-| [react-native-cli](https://github.com/curforever/react-native-cli) | ![Stars](assets/metrics/react-native-cli-stars.svg) | ![Forks](assets/metrics/react-native-cli-forks.svg) | Fork · The React Native Community CLI — Command line tools to help you build React Native apps |
-| [resilience4j](https://github.com/curforever/resilience4j) | ![Stars](assets/metrics/resilience4j-stars.svg) | ![Forks](assets/metrics/resilience4j-forks.svg) | Fork · Resilience4j is a fault tolerance library designed for Java8 and functional programming |
-| [snappy-java](https://github.com/curforever/snappy-java) | ![Stars](assets/metrics/snappy-java-stars.svg) | ![Forks](assets/metrics/snappy-java-forks.svg) | Fork · Snappy compressor/decompressor for Java |
-| [zjsonpatch](https://github.com/curforever/zjsonpatch) | ![Stars](assets/metrics/zjsonpatch-stars.svg) | ![Forks](assets/metrics/zjsonpatch-forks.svg) | Fork · This is an implementation of RFC 6902 JSON Patch written in Java |
-| [zt-exec](https://github.com/curforever/zt-exec) | ![Stars](assets/metrics/zt-exec-stars.svg) | ![Forks](assets/metrics/zt-exec-forks.svg) | Fork · ZeroTurnaround Process Executor |
 | [CangQiongWaiMai-Java](https://github.com/curforever/CangQiongWaiMai-Java) | ![Stars](assets/metrics/CangQiongWaiMai-Java-stars.svg) | ![Forks](assets/metrics/CangQiongWaiMai-Java-forks.svg) | Course practice: business, cache &amp; Spring |
+| [curiosity-library](https://github.com/curforever/curiosity-library) | ![Stars](assets/metrics/curiosity-library-stars.svg) | ![Forks](assets/metrics/curiosity-library-forks.svg) | 好奇心书架：个人创作与 AI 协作作品集。 |
 | [HexoBlogBackup](https://github.com/curforever/HexoBlogBackup) | ![Stars](assets/metrics/HexoBlogBackup-stars.svg) | ![Forks](assets/metrics/HexoBlogBackup-forks.svg) | Hexo content, theme &amp; configuration |
 | [curforever](https://github.com/curforever/curforever) | ![Stars](assets/metrics/curforever-stars.svg) | ![Forks](assets/metrics/curforever-forks.svg) | Bilingual profile, assets &amp; metric refresh |
 <!-- PUBLIC_PROJECTS_END -->
 
-<sub>![Updated](assets/metrics/updated-en.svg) · Public repositories only; refreshed weekly. Forks and course projects are labeled.</sub>
+<sub>![Updated](assets/metrics/updated-en.svg) · Public, non-fork repositories owned by curforever only; refreshed weekly. Course projects are labeled.</sub>
 
 <a id="beyond"></a>
 ## 📚 Beyond code · Curiosity needs input

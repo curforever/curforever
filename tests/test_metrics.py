@@ -11,6 +11,24 @@ spec.loader.exec_module(metrics)
 
 
 class RefreshBoundaryTests(unittest.TestCase):
+    def test_repository_refresh_excludes_forks_private_and_other_owners(self):
+        def repo(name, owner='curforever', private=False, fork=False):
+            return {'name': name, 'owner': {'login': owner}, 'private': private, 'fork': fork}
+        # The first page is full of forks: filtering must not stop pagination.
+        first = [repo('fork-' + str(i), fork=True) for i in range(100)]
+        second = [repo('own-project', owner='CurForever'), repo('private-tool', private=True),
+                  repo('other-project', owner='upstream'), repo('leetcode-master', fork=True)]
+        with patch.object(metrics, 'github_json', side_effect=[first, second]) as api:
+            selected = metrics.github_public_repos()
+        self.assertEqual([r['name'] for r in selected], ['own-project'])
+        self.assertEqual(api.call_count, 2)
+        for english in (False, True):
+            table = metrics.project_index(selected, english)
+            self.assertIn('own-project', table)
+            self.assertNotIn('leetcode-master', table)
+            self.assertNotIn('private-tool', table)
+            self.assertNotIn('other-project', table)
+
     def test_private_unmerged_and_other_author_results_are_excluded(self):
         items = [{'repository_url': 'https://api.github.com/repos/' + repo, 'number': n, 'pull_request': {}}
                  for repo, n in [('hidden/project', 1), ('upstream/project', 2), ('upstream/project', 3), ('upstream/project', 4), ('upstream/project', 4)]]
