@@ -6,6 +6,7 @@ Public external PRs verified against repository visibility and merge state. Upda
 
 | Project | Change | PR | Merged (UTC) |
 | :--- | :--- | :---: | :--- |
+| [Windy3f3f3f3f/claude-code-from-scratch](https://github.com/Windy3f3f3f3f/claude-code-from-scratch) | fix(python): await MCP process shutdown | [#17](https://github.com/Windy3f3f3f3f/claude-code-from-scratch/pull/17) | 2026-11-09 |
 | [apache/logging-log4j2](https://github.com/apache/logging-log4j2) | Preserve JPA throwable messages with no-arg constructors | [#4401](https://github.com/apache/logging-log4j2/pull/4401) | 2026-10-30 |
 | [chandra447/pi-hermes-memory](https://github.com/chandra447/pi-hermes-memory) | fix(store): prevent duplicate bodies from replacement | [#306](https://github.com/chandra447/pi-hermes-memory/pull/306) | 2026-10-25 |
 | [jknack/handlebars.java](https://github.com/jknack/handlebars.java) | Handle null dynamic keys in lookup helper | [#1198](https://github.com/jknack/handlebars.java/pull/1198) | 2026-10-24 |

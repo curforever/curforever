@@ -1,7 +1,14 @@
 {
-  "updated_date_cst": "2026-11-02",
-  "merged_count": 11,
+  "updated_date_cst": "2026-11-09",
+  "merged_count": 12,
   "pull_requests": [
+    {
+      "repository": "Windy3f3f3f3f/claude-code-from-scratch",
+      "number": 17,
+      "title": "fix(python): await MCP process shutdown",
+      "url": "https://github.com/Windy3f3f3f3f/claude-code-from-scratch/pull/17",
+      "merged_at": "2026-11-09T05:43:12Z"
+    },
     {
       "repository": "apache/logging-log4j2",
       "number": 4401,

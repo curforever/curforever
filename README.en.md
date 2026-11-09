@@ -58,8 +58,8 @@ Harmony state consistency, Java latency investigation and VR quality/cache trade
 <img src="assets/contribution-card.svg" width="100%" alt="Open source · Beyond the Fork button" />
 <!-- PUBLIC_CONTRIBUTIONS_START -->
 <b>Contributions · Send patches upstream</b><br />
-11 verified merged PRs across 8 public projects. Example: fix lost exception messages during Log4j JPA restoration, with regression tests.<br /><br />
-<code>Public PRs</code> <code>Merge evidence</code> <code>11 PRs merged</code><br /><br />
+12 verified merged PRs across 9 public projects. Example: fix lost exception messages during Log4j JPA restoration, with regression tests.<br /><br />
+<code>Public PRs</code> <code>Merge evidence</code> <code>12 PRs merged</code><br /><br />
 <a href="https://github.com/apache/logging-log4j2/pull/4401">Example PR →</a> · <a href="contributions/README.en.md">Contribution record →</a>
 <!-- PUBLIC_CONTRIBUTIONS_END -->
 </td>

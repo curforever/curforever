@@ -58,8 +58,8 @@
 <img src="assets/contribution-card.svg" width="100%" alt="开源贡献 · 不只 Fork，也递交补丁" />
 <!-- PUBLIC_CONTRIBUTIONS_START -->
 <b>开源贡献 · 不只 Fork，也递交补丁</b><br />
-11 个公开对外 PR 已合并，来自 8 个项目。代表案例：修复 Log4j JPA 异常还原时的消息丢失，并补充回归测试。<br /><br />
-<code>公开 PR</code> <code>合并记录</code> <code>11 PRs merged</code><br /><br />
+12 个公开对外 PR 已合并，来自 9 个项目。代表案例：修复 Log4j JPA 异常还原时的消息丢失，并补充回归测试。<br /><br />
+<code>公开 PR</code> <code>合并记录</code> <code>12 PRs merged</code><br /><br />
 <a href="https://github.com/apache/logging-log4j2/pull/4401">案例 PR →</a> · <a href="contributions/README.md">完整贡献记录 →</a>
 <!-- PUBLIC_CONTRIBUTIONS_END -->
 </td>
